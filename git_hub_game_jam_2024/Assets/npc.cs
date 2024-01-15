@@ -16,5 +16,6 @@ public class npc : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.B)) { }
 
+
     }
 }
