@@ -11,7 +11,7 @@ public class player_movent : MonoBehaviour
     public float dashCooldown = 1f;     // Dash cooldown
     public Transform groundCheck;       // Ground check object (empty GameObject at player's feet)
     public LayerMask groundLayer;       // Layer mask for the ground
-
+    public bool wall_jump;
     private Rigidbody2D rb;
     private bool isGrounded;
     private bool isDashing;
@@ -38,6 +38,14 @@ public class player_movent : MonoBehaviour
         if (isGrounded && Input.GetButtonDown("Jump"))
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        }
+
+        // wall jump
+        if ( wall_jump == true && Input.GetButtonDown("Jump")) 
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            wall_jump = false;
+            
         }
 
         // Update dash cooldown timer
