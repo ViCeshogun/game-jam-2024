@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class player_movent : MonoBehaviour
 {
@@ -78,5 +79,22 @@ public class player_movent : MonoBehaviour
         dashCooldownTimer = dashCooldown;
 
         rb.velocity = new Vector2(0f, rb.velocity.y);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("collde");
+        if (other.CompareTag("Wall"))
+        {
+            Debug.Log("triggerclose");
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Wall"))
+        {
+            Debug.Log("triggernotclose");
+
+        }
     }
 }
