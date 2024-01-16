@@ -16,6 +16,8 @@ public class swing : MonoBehaviour
     public int has_swung;
     public int spin_cap;
     public int Finished_swinign;
+  
+  
     // Start is called before the first frame update
     public void Start()
     {
@@ -28,9 +30,10 @@ public class swing : MonoBehaviour
         if (Finished_swinign == 0) { anchor.rotation = Quaternion.Euler(0, 0, swing_val); }
        if (swing_val > -10&& swing_val< 10) { spin_cap =60- swings; }
        if (spin_cap == 0) { spin_cap = 60; Finished_swinign = 1; swing_val = 0; swings = 0; }
+  
     }
 
-    private void OnCollisionEnter2D(Collision2D collsion)
+    public void OnCollisionEnter2D(Collision2D collsion)
     {
         
         if (collsion.gameObject.tag == "Player") 
@@ -42,6 +45,7 @@ public class swing : MonoBehaviour
             Finished_swinign = 0;
             swing_val = swing_val - collsion.relativeVelocity.x+ collsion.relativeVelocity.y;
             
+
         }
 
 

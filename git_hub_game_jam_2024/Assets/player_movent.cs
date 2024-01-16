@@ -17,7 +17,8 @@ public class player_movent : MonoBehaviour
     private bool isDashing;
     private float dashTime;
     private float dashCooldownTimer;
-    
+    public Transform player;
+    public swing_script swing_code;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -79,4 +80,29 @@ public class player_movent : MonoBehaviour
 
         rb.velocity = new Vector2(0f, rb.velocity.y);
     }
+
+    public void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "rope")
+        {
+            if (Input.GetKey(KeyCode.Space) == false)
+            {
+                rb.transform.position = swing_code.slef.transform.position;
+                player.rotation = Quaternion.Euler(0, 0, swing_code.swing_val +180);
+
+            }
+
+            if (Input.GetKey(KeyCode.Space) == true)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, jumpForce + 3);
+                player.rotation = Quaternion.Euler(0, 0, 0);
+            }
+
+
+        }
+    }
+
+
+
+
 }
