@@ -580,7 +580,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
-  randomMoveDuration: 100000
+  random: 1
+  pos: {x: 20, y: 0}
+  can_move: 1
+  randomMoveDuration: 10
 --- !u!212 &1588071552
 SpriteRenderer:
   m_ObjectHideFlags: 0

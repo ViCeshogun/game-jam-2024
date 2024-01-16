@@ -7,7 +7,9 @@ public class Enemy : MonoBehaviour
     private Transform player;
     private Rigidbody2D rb;
     private bool isMovingRandomly = true;
-
+    public float random;
+    public Vector2 pos;
+    public int can_move;
     public float randomMoveDuration = 5f; // Adjust the duration for random movement
     private float timer;
 
@@ -42,13 +44,43 @@ public class Enemy : MonoBehaviour
     {
         while (isMovingRandomly)
         {
-            // Move randomly
-            Vector2 randomDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
-            rb.velocity = randomDirection * moveSpeed;
+            can_move = 1;
+            StartCoroutine(Randomiser());
+            pos = transform.position;
 
-            // Wait for a short duration before changing direction
-            yield return new WaitForSeconds(Random.Range(1f, 3f));
+            if (random == 1 && can_move == 1) { rb.AddForce(new Vector2(5, 0)); rb.drag = 1; }
+            if (random == 2 && can_move == 1) { rb.AddForce(new Vector2(-5, 0)); rb.drag = 1; }
+            if (random == 3 && can_move == 1) { rb.drag = 1000; }
+
+            if (transform.position.x > pos.x + 7)
+            {
+                can_move = 0;
+                StartCoroutine(Return());
+                rb.AddForce(new Vector2(-5, 0));
+            }
+
+            if (transform.position.x < pos.x - 7)
+            {
+                can_move = 0;
+                StartCoroutine(Return());
+                rb.AddForce(new Vector2(5, 0));
+            }
+
+            yield return null;
         }
+    }
+
+    IEnumerator Randomiser()
+    {
+        yield return new WaitForSeconds(1);
+        random = Random.Range(1, 10);
+        StartCoroutine(Randomiser());
+    }
+
+    IEnumerator Return()
+    {
+        yield return new WaitForSeconds(1);
+        can_move = 1;
     }
 
     IEnumerator MoveTowardsPlayer()
