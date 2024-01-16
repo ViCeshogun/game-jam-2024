@@ -16,6 +16,7 @@ public class swing_script : MonoBehaviour
     public int swing_back;
     public int swing_change;
     public float swing_force;
+    public Collider2D self;
     // Start is called before the first frame update
   public  void Start()
     {
@@ -44,6 +45,12 @@ public class swing_script : MonoBehaviour
         }
     }
 
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        self.isTrigger = true;
+        StartCoroutine(trigger_on_off());
+    }
+
     public IEnumerator swinging()
     {
         yield return new WaitForSeconds(0.01f);
@@ -55,4 +62,10 @@ public class swing_script : MonoBehaviour
         StartCoroutine(swinging());
     }
 
+    public IEnumerator trigger_on_off()
+    {
+        yield return new WaitForSeconds(0.5f);
+        self.isTrigger = false;
+
+    }
 }

@@ -96,7 +96,7 @@ public class player_movent : MonoBehaviour
             if (Input.GetKey(KeyCode.Space) == true)
             {
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce + 3);
-               
+                player.rotation = Quaternion.Euler(0, 0, 0);
             }
 
 
