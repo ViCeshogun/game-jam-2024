@@ -1,15 +1,16 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneReset : MonoBehaviour
+public class Deth: MonoBehaviour
 {
-    // Destroy the object and reset the scene
-    private void OnDestroy()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        ResetScene();
+        if (other.CompareTag("Player"))
+        {
+            ResetScene();
+        }
     }
 
-    // Function to reset the scene
     private void ResetScene()
     {
         // Get the name of the current scene
