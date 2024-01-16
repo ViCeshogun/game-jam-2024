@@ -17,7 +17,7 @@ public class player_movent : MonoBehaviour
     private bool isDashing;
     private float dashTime;
     private float dashCooldownTimer;
-
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
