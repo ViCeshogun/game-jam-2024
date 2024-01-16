@@ -88,14 +88,15 @@ public class player_movent : MonoBehaviour
             if (Input.GetKey(KeyCode.Space) == false)
             {
                 rb.transform.position = swing_code.slef.transform.position;
-                player.rotation = Quaternion.Euler(0, 0, swing_code.swing_val +180);
+                rb.transform.position = new Vector2(swing_code.slef.transform.position.x, swing_code.transform.position.y - 0.8f);
+                player.rotation = Quaternion.Euler(0, 0, swing_code.swing_val);
 
             }
 
             if (Input.GetKey(KeyCode.Space) == true)
             {
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce + 3);
-                player.rotation = Quaternion.Euler(0, 0, 0);
+               
             }
 
 

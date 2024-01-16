@@ -28,15 +28,17 @@ public class swing_script : MonoBehaviour
     {
         if (swing_val > -10 && swing_val < 10) { swing_cap = 60 - swing_back; }
      if (can_swing == false) { anchor.rotation = Quaternion.Euler(0, 0, swing_val); }   
-     if (swing_cap >= 0) { swing_val = 0; can_swing = true; swing_back = 0; swing_cap = 60; }
+     if (swing_cap <= 0) { swing_val = 0; can_swing = true; swing_back = 0; swing_cap = 60; }
      if (swing_cap <= 42&& swing_force>10) { swing_force = 0.4f; }
      if (swing_cap <= 21) { swing_force = 0.3f; }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        
         if (collision.gameObject.tag == "Player") 
         {
+            
             StartCoroutine(swinging());
         
         }
