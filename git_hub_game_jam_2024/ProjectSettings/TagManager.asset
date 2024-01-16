@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: bACK
+    uniqueID: 1365664587
+    locked: 0
+  - name: Floor
+    uniqueID: 2321115371
+    locked: 0
+  - name: Mid
+    uniqueID: 3238493095
+    locked: 0
+  - name: Player
+    uniqueID: 1224840355
+    locked: 0
