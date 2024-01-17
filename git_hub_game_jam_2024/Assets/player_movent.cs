@@ -17,6 +17,7 @@ public class player_movent : MonoBehaviour
     private bool isDashing;
     private float dashTime;
     private float dashCooldownTimer;
+    public float Shield = 0;
 
     void Start()
     {
@@ -40,12 +41,11 @@ public class player_movent : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
 
-        // wall jump
-        if ( wall_jump == true && Input.GetButtonDown("Jump")) 
+        // Wall jump
+        if (wall_jump == true && Input.GetButtonDown("Jump"))
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             wall_jump = false;
-            
         }
 
         // Update dash cooldown timer
@@ -55,6 +55,19 @@ public class player_movent : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift) && !isDashing && dashCooldownTimer <= 0f)
         {
             StartCoroutine(Dash(horizontalInput));
+        }
+
+        // Player dash with shield (triggered by left Shift)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && !isDashing && dashCooldownTimer <= 0f && Shield == 1)
+        {
+            StartCoroutine(Dash(horizontalInput));
+
+            gameObject.tag = "Untagged";
+        }
+
+        if (Shield == 0)
+        {
+            gameObject.tag = "Player";
         }
     }
 
@@ -78,5 +91,22 @@ public class player_movent : MonoBehaviour
         dashCooldownTimer = dashCooldown;
 
         rb.velocity = new Vector2(0f, rb.velocity.y);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("collide");
+        if (other.CompareTag("Wall"))
+        {
+            Debug.Log("trigger close");
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Wall"))
+        {
+            Debug.Log("trigger not close");
+        }
     }
 }
