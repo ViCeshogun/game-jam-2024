@@ -26,7 +26,7 @@ public class player_movent : MonoBehaviour
             Debug.LogError("Ground Check object not assigned in the inspector!");
     }
 
-    void Update()
+   public void Update()
     {
         // Check if the player is grounded
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
@@ -87,6 +87,7 @@ public class player_movent : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space) == false)
             {
+                
                 rb.transform.position = swing_code.slef.transform.position;
                 rb.transform.position = new Vector2(collision.transform.position.x, collision.transform.position.y - 0.8f);
                 player.rotation = Quaternion.Euler(0, 0, swing_code.swing_val);

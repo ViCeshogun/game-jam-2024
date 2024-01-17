@@ -956,7 +956,7 @@ MonoBehaviour:
   swing_change: 0
   swing_force: 0
   self: {fileID: 209994129}
-  player: 
+  has_left: 0
 --- !u!212 &209994128
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1923,7 +1923,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 935c5f57a5eb75647973e74671f8d8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 2131715411}
+  self: {fileID: 487179387}
+  player: {fileID: 2131715414}
 --- !u!50 &487179387
 Rigidbody2D:
   serializedVersion: 4
@@ -5487,7 +5488,7 @@ MonoBehaviour:
   swing_change: 0
   swing_force: 0
   self: {fileID: 1923485337}
-  player: 
+  has_left: 0
 --- !u!212 &1923485339
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5921,7 +5922,7 @@ MonoBehaviour:
   swing_change: 0
   swing_force: 0
   self: {fileID: 2107264571}
-  player: 
+  has_left: 0
 --- !u!212 &2107264573
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5986,6 +5987,7 @@ GameObject:
   - component: {fileID: 2131715414}
   - component: {fileID: 2131715413}
   - component: {fileID: 2131715412}
+  - component: {fileID: 2131715415}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -6130,6 +6132,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &2131715415
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131715409}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dce65556aab355d4e835dec349f2a341, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2145783680
 GameObject:
   m_ObjectHideFlags: 0
