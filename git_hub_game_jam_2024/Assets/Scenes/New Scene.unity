@@ -3414,6 +3414,7 @@ MonoBehaviour:
   random: 0
   pos: {x: 0, y: 0}
   can_move: 0
+  timer_script: {fileID: 0}
 --- !u!212 &844630478
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16013,6 +16014,7 @@ MonoBehaviour:
   random: 0
   pos: {x: 0, y: 0}
   can_move: 0
+  timer_script: {fileID: 0}
 --- !u!212 &1605895765
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16161,6 +16163,7 @@ MonoBehaviour:
   random: 0
   pos: {x: 0, y: 0}
   can_move: 0
+  timer_script: {fileID: 0}
 --- !u!212 &1619481109
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16527,6 +16530,7 @@ MonoBehaviour:
   random: 0
   pos: {x: 0, y: 0}
   can_move: 0
+  timer_script: {fileID: 0}
 --- !u!212 &1802256183
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17048,7 +17052,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1974022423
   m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 1, g: 0, b: 0.91219616, a: 1}
   m_FlipX: 0
@@ -17123,6 +17127,7 @@ MonoBehaviour:
   random: 0
   pos: {x: 0, y: 0}
   can_move: 0
+  timer_script: {fileID: 0}
 --- !u!1 &2107264569
 GameObject:
   m_ObjectHideFlags: 0

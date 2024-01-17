@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - rope
+  - Wall
+  - Nextlevel
+  - Enamy
   layers:
   - Default
   - TransparentFX
