@@ -20,22 +20,22 @@ public class npc : MonoBehaviour
     // Update is called once per frame
   public void Update()
     {
-       if (random == 1 && can_move==1) { self.AddForce (new Vector2(5, 0)); self.drag = 1; } 
-       if (random == 2 && can_move == 1) { self.AddForce (new Vector2(-5, 0)); self.drag = 1; } 
+       if (random == 1 && can_move==1) { self.AddForce (new Vector2(1, 0)); self.drag = 1; } 
+       if (random == 2 && can_move == 1) { self.AddForce (new Vector2(-1, 0)); self.drag = 1; } 
        if (random == 3 && can_move == 1) { self.drag = 1000; } 
 
        if (self.transform.position.x >pos.x +7) 
         { 
             can_move = 0;
             StartCoroutine(retern());
-            self.AddForce(new Vector2(-5, 0));
+            self.AddForce(new Vector2(-2, 0));
         }
 
        if (self.transform.position.x <pos.x -7) 
         {
            can_move = 0; 
             StartCoroutine(retern());
-            self.AddForce(new Vector2(5, 0));
+            self.AddForce(new Vector2(2, 0));
         }
     }
 
@@ -51,7 +51,7 @@ public class npc : MonoBehaviour
 
     public IEnumerator retern() 
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         can_move = 1;
     }
 }
