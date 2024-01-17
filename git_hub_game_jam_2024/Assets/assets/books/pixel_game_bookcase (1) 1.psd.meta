@@ -1,0 +1,636 @@
+fileFormatVersion: 2
+guid: 36e174233d860d04e8dfd4f57784ac73
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 117772658318779035
+    second: pixel_game_bookcase (1) 1_0
+  - first:
+      213: -3668922831879035953
+    second: pixel_game_bookcase (1) 1_1
+  - first:
+      213: 9111825815342478706
+    second: pixel_game_bookcase (1) 1_2
+  - first:
+      213: -3037383823718650465
+    second: pixel_game_bookcase (1) 1_3
+  - first:
+      213: 4471780707319414489
+    second: pixel_game_bookcase (1) 1_4
+  - first:
+      213: -5579093489182314036
+    second: pixel_game_bookcase (1) 1_5
+  - first:
+      213: -6618063094836445621
+    second: pixel_game_bookcase (1) 1_6
+  - first:
+      213: 1677198173974726861
+    second: pixel_game_bookcase (1) 1_7
+  - first:
+      213: -7239458158414196034
+    second: pixel_game_bookcase (1) 1_8
+  - first:
+      213: 6416127538693974588
+    second: pixel_game_bookcase (1) 1_9
+  - first:
+      213: 3044469543180936636
+    second: pixel_game_bookcase (1) 1_10
+  - first:
+      213: 7050218945671260947
+    second: pixel_game_bookcase (1) 1_11
+  - first:
+      213: -2655912934948959254
+    second: pixel_game_bookcase (1) 1_12
+  - first:
+      213: 3816549088404519743
+    second: pixel_game_bookcase (1) 1_13
+  - first:
+      213: -813165737974834887
+    second: pixel_game_bookcase (1) 1_14
+  - first:
+      213: 8024716840988974519
+    second: pixel_game_bookcase (1) 1_15
+  - first:
+      213: 8982971549392688401
+    second: pixel_game_bookcase (1) 1_16
+  - first:
+      213: 4029345986802481949
+    second: pixel_game_bookcase (1) 1_17
+  - first:
+      213: -1930905224929128861
+    second: pixel_game_bookcase (1) 1_18
+  - first:
+      213: 4836649268219481505
+    second: pixel_game_bookcase (1) 1_19
+  - first:
+      213: -1147765235646420952
+    second: pixel_game_bookcase (1) 1_20
+  - first:
+      213: -6941837648944353815
+    second: pixel_game_bookcase (1) 1_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_0
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b922857db9962a100800000000000000
+      internalID: 117772658318779035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_1
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3a7898f1e551dc0800000000000000
+      internalID: -3668922831879035953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275f8b27d45b37e70800000000000000
+      internalID: 9111825815342478706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_3
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d6bbc418b09d5d0800000000000000
+      internalID: -3037383823718650465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_4
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9def73d5cd4fe0e30800000000000000
+      internalID: 4471780707319414489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_5
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1f798e7041392b0800000000000000
+      internalID: -5579093489182314036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_6
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4eb623edaae724a0800000000000000
+      internalID: -6618063094836445621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_7
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc882b16ada964710800000000000000
+      internalID: 1677198173974726861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_8
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb21b654927488b90800000000000000
+      internalID: -7239458158414196034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_9
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3aa479900aaa0950800000000000000
+      internalID: 6416127538693974588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_10
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5abc25be0204a20800000000000000
+      internalID: 3044469543180936636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_11
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31be67507c867d160800000000000000
+      internalID: 7050218945671260947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_12
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb800ed14d442bd0800000000000000
+      internalID: -2655912934948959254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_13
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b313acc2b17f430800000000000000
+      internalID: 3816549088404519743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939dd74d11e07b4f0800000000000000
+      internalID: -813165737974834887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_15
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd1e3a33758d5f60800000000000000
+      internalID: 8024716840988974519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_16
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115ddf4c70de9ac70800000000000000
+      internalID: 8982971549392688401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_17
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bf18c93dc1be730800000000000000
+      internalID: 4029345986802481949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e4725adeb0435e0800000000000000
+      internalID: -1930905224929128861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_19
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad006f32ea3f1340800000000000000
+      internalID: 4836649268219481505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_20
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828a0cb69915210f0800000000000000
+      internalID: -1147765235646420952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_bookcase (1) 1_21
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed2d3e0073a9af90800000000000000
+      internalID: -6941837648944353815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
