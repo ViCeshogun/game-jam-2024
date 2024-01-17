@@ -8,6 +8,9 @@ TextureImporter:
   - first:
       213: -7029984618170511424
     second: pixel_game_floor_and_celing (1)_1
+  - first:
+      213: 8140086531980000121
+    second: pixel_game_floor_and_celing (1)_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -105,7 +108,7 @@ TextureImporter:
         width: 999
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -121,9 +124,30 @@ TextureImporter:
       name: pixel_game_floor_and_celing (1)_1
       rect:
         serializedVersion: 2
-        x: 0
+        x: 265
+        y: 3
+        width: 734
+        height: 10
+      alignment: 9
+      pivot: {x: 0.51883286, y: 0.49999818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf8c797c3a707e90800000000000000
+      internalID: -7029984618170511424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel_game_floor_and_celing (1)_2
+      rect:
+        serializedVersion: 2
+        x: 2
         y: 4
-        width: 999
+        width: 255
         height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -132,8 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cf8c797c3a707e90800000000000000
-      internalID: -7029984618170511424
+      spriteID: 97bfb93a29567f070800000000000000
+      internalID: 8140086531980000121
       vertices: []
       indices: 
       edges: []
