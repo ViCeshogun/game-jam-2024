@@ -1,0 +1,3060 @@
+fileFormatVersion: 2
+guid: b7782663d2092754cb4960e1b49a80bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5447660135319394122
+    second: third_background_wall_go_burrrrrrrrrn_0
+  - first:
+      213: -2673242069813691859
+    second: third_background_wall_go_burrrrrrrrrn_1
+  - first:
+      213: 7148256191537349223
+    second: third_background_wall_go_burrrrrrrrrn_2
+  - first:
+      213: 4148201069346903252
+    second: third_background_wall_go_burrrrrrrrrn_3
+  - first:
+      213: -5734882743136568297
+    second: third_background_wall_go_burrrrrrrrrn_4
+  - first:
+      213: 643551253063444534
+    second: third_background_wall_go_burrrrrrrrrn_5
+  - first:
+      213: 863427532484197533
+    second: third_background_wall_go_burrrrrrrrrn_6
+  - first:
+      213: 6537096453680367959
+    second: third_background_wall_go_burrrrrrrrrn_7
+  - first:
+      213: 5454112713264206162
+    second: third_background_wall_go_burrrrrrrrrn_8
+  - first:
+      213: 129007694824701518
+    second: third_background_wall_go_burrrrrrrrrn_9
+  - first:
+      213: -6689203423854365124
+    second: third_background_wall_go_burrrrrrrrrn_10
+  - first:
+      213: 3410005543268304273
+    second: third_background_wall_go_burrrrrrrrrn_11
+  - first:
+      213: 9047746833868587637
+    second: third_background_wall_go_burrrrrrrrrn_12
+  - first:
+      213: 8588568277309675239
+    second: third_background_wall_go_burrrrrrrrrn_13
+  - first:
+      213: -124378832778932364
+    second: third_background_wall_go_burrrrrrrrrn_14
+  - first:
+      213: 3644934900811250226
+    second: third_background_wall_go_burrrrrrrrrn_15
+  - first:
+      213: -7315332200847097240
+    second: third_background_wall_go_burrrrrrrrrn_16
+  - first:
+      213: 6693823096189560877
+    second: third_background_wall_go_burrrrrrrrrn_17
+  - first:
+      213: 7407732479061441195
+    second: third_background_wall_go_burrrrrrrrrn_18
+  - first:
+      213: 5810234300671739774
+    second: third_background_wall_go_burrrrrrrrrn_19
+  - first:
+      213: -5768319775637568845
+    second: third_background_wall_go_burrrrrrrrrn_20
+  - first:
+      213: -3401362077617448565
+    second: third_background_wall_go_burrrrrrrrrn_21
+  - first:
+      213: 206801058174060851
+    second: third_background_wall_go_burrrrrrrrrn_22
+  - first:
+      213: 3213077475045458442
+    second: third_background_wall_go_burrrrrrrrrn_23
+  - first:
+      213: -4889108290641709143
+    second: third_background_wall_go_burrrrrrrrrn_24
+  - first:
+      213: 7561638752406378558
+    second: third_background_wall_go_burrrrrrrrrn_25
+  - first:
+      213: -8971906717461442477
+    second: third_background_wall_go_burrrrrrrrrn_26
+  - first:
+      213: -7788469334019663996
+    second: third_background_wall_go_burrrrrrrrrn_27
+  - first:
+      213: -1828925173800444603
+    second: third_background_wall_go_burrrrrrrrrn_28
+  - first:
+      213: 5291203288772401244
+    second: third_background_wall_go_burrrrrrrrrn_29
+  - first:
+      213: -2510750923649676920
+    second: third_background_wall_go_burrrrrrrrrn_30
+  - first:
+      213: -5276239907027581623
+    second: third_background_wall_go_burrrrrrrrrn_31
+  - first:
+      213: -6852774797649384571
+    second: third_background_wall_go_burrrrrrrrrn_32
+  - first:
+      213: 6677468516210713754
+    second: third_background_wall_go_burrrrrrrrrn_33
+  - first:
+      213: -3076610149379263135
+    second: third_background_wall_go_burrrrrrrrrn_34
+  - first:
+      213: -4265823979373971663
+    second: third_background_wall_go_burrrrrrrrrn_35
+  - first:
+      213: 8796290086433377409
+    second: third_background_wall_go_burrrrrrrrrn_36
+  - first:
+      213: -4526015373367700951
+    second: third_background_wall_go_burrrrrrrrrn_37
+  - first:
+      213: 8202428990957068002
+    second: third_background_wall_go_burrrrrrrrrn_38
+  - first:
+      213: -9100927496886886696
+    second: third_background_wall_go_burrrrrrrrrn_39
+  - first:
+      213: 8830304877666903178
+    second: third_background_wall_go_burrrrrrrrrn_40
+  - first:
+      213: 2623889233186767783
+    second: third_background_wall_go_burrrrrrrrrn_41
+  - first:
+      213: -4973994224497554204
+    second: third_background_wall_go_burrrrrrrrrn_42
+  - first:
+      213: 2360582136155046381
+    second: third_background_wall_go_burrrrrrrrrn_43
+  - first:
+      213: -7353847559405359821
+    second: third_background_wall_go_burrrrrrrrrn_44
+  - first:
+      213: -191120459930423549
+    second: third_background_wall_go_burrrrrrrrrn_45
+  - first:
+      213: 6016074426139575035
+    second: third_background_wall_go_burrrrrrrrrn_46
+  - first:
+      213: 8194999759671094125
+    second: third_background_wall_go_burrrrrrrrrn_47
+  - first:
+      213: -8848949030788030291
+    second: third_background_wall_go_burrrrrrrrrn_48
+  - first:
+      213: -914632491279010246
+    second: third_background_wall_go_burrrrrrrrrn_49
+  - first:
+      213: 7364839042326673630
+    second: third_background_wall_go_burrrrrrrrrn_50
+  - first:
+      213: 711647592512904435
+    second: third_background_wall_go_burrrrrrrrrn_51
+  - first:
+      213: -2690715586035254680
+    second: third_background_wall_go_burrrrrrrrrn_52
+  - first:
+      213: -1390404675668692133
+    second: third_background_wall_go_burrrrrrrrrn_53
+  - first:
+      213: 5534965551490119147
+    second: third_background_wall_go_burrrrrrrrrn_54
+  - first:
+      213: 7499410483174694544
+    second: third_background_wall_go_burrrrrrrrrn_55
+  - first:
+      213: 8749005544977330559
+    second: third_background_wall_go_burrrrrrrrrn_56
+  - first:
+      213: -4143827757909975257
+    second: third_background_wall_go_burrrrrrrrrn_57
+  - first:
+      213: -2056195205278951800
+    second: third_background_wall_go_burrrrrrrrrn_58
+  - first:
+      213: -1229333976223746646
+    second: third_background_wall_go_burrrrrrrrrn_59
+  - first:
+      213: -6086928231854674954
+    second: third_background_wall_go_burrrrrrrrrn_60
+  - first:
+      213: -8801051549384504682
+    second: third_background_wall_go_burrrrrrrrrn_61
+  - first:
+      213: -8190778102970935034
+    second: third_background_wall_go_burrrrrrrrrn_62
+  - first:
+      213: -4644454922060352890
+    second: third_background_wall_go_burrrrrrrrrn_63
+  - first:
+      213: 2326757144504823418
+    second: third_background_wall_go_burrrrrrrrrn_64
+  - first:
+      213: 8274872182712962381
+    second: third_background_wall_go_burrrrrrrrrn_65
+  - first:
+      213: -7116724046801308796
+    second: third_background_wall_go_burrrrrrrrrn_66
+  - first:
+      213: -4694550730864743172
+    second: third_background_wall_go_burrrrrrrrrn_67
+  - first:
+      213: 7520244197838189976
+    second: third_background_wall_go_burrrrrrrrrn_68
+  - first:
+      213: 6475632219471136013
+    second: third_background_wall_go_burrrrrrrrrn_69
+  - first:
+      213: -8907529909295495803
+    second: third_background_wall_go_burrrrrrrrrn_70
+  - first:
+      213: 7240778725201388325
+    second: third_background_wall_go_burrrrrrrrrn_71
+  - first:
+      213: 8606621652714657699
+    second: third_background_wall_go_burrrrrrrrrn_72
+  - first:
+      213: 1320438820248774304
+    second: third_background_wall_go_burrrrrrrrrn_73
+  - first:
+      213: 6957534439421981702
+    second: third_background_wall_go_burrrrrrrrrn_74
+  - first:
+      213: 659733465956327812
+    second: third_background_wall_go_burrrrrrrrrn_75
+  - first:
+      213: 934103316620544170
+    second: third_background_wall_go_burrrrrrrrrn_76
+  - first:
+      213: 7536158554579276770
+    second: third_background_wall_go_burrrrrrrrrn_77
+  - first:
+      213: -1259736861341632397
+    second: third_background_wall_go_burrrrrrrrrn_78
+  - first:
+      213: -1460957002955194382
+    second: third_background_wall_go_burrrrrrrrrn_79
+  - first:
+      213: 6906736861791375001
+    second: third_background_wall_go_burrrrrrrrrn_80
+  - first:
+      213: 5217988848931486675
+    second: third_background_wall_go_burrrrrrrrrn_81
+  - first:
+      213: -7355415326212826685
+    second: third_background_wall_go_burrrrrrrrrn_82
+  - first:
+      213: 1162746946798152461
+    second: third_background_wall_go_burrrrrrrrrn_83
+  - first:
+      213: -4478612573151504079
+    second: third_background_wall_go_burrrrrrrrrn_84
+  - first:
+      213: -7331621699657063871
+    second: third_background_wall_go_burrrrrrrrrn_85
+  - first:
+      213: 3121456739140968570
+    second: third_background_wall_go_burrrrrrrrrn_86
+  - first:
+      213: 590024556981754446
+    second: third_background_wall_go_burrrrrrrrrn_87
+  - first:
+      213: -4891893149863392566
+    second: third_background_wall_go_burrrrrrrrrn_88
+  - first:
+      213: 5946431474033564792
+    second: third_background_wall_go_burrrrrrrrrn_89
+  - first:
+      213: -5417173391650839658
+    second: third_background_wall_go_burrrrrrrrrn_90
+  - first:
+      213: 8695026132519901059
+    second: third_background_wall_go_burrrrrrrrrn_91
+  - first:
+      213: 6129799227742402020
+    second: third_background_wall_go_burrrrrrrrrn_92
+  - first:
+      213: 5887364459979511714
+    second: third_background_wall_go_burrrrrrrrrn_93
+  - first:
+      213: -5412148467093179498
+    second: third_background_wall_go_burrrrrrrrrn_94
+  - first:
+      213: -6803111547624029100
+    second: third_background_wall_go_burrrrrrrrrn_95
+  - first:
+      213: 4860509799436019927
+    second: third_background_wall_go_burrrrrrrrrn_96
+  - first:
+      213: 5004741938030225299
+    second: third_background_wall_go_burrrrrrrrrn_97
+  - first:
+      213: -6184815347645470021
+    second: third_background_wall_go_burrrrrrrrrn_98
+  - first:
+      213: 4370826031564164822
+    second: third_background_wall_go_burrrrrrrrrn_99
+  - first:
+      213: -1093561209659613510
+    second: third_background_wall_go_burrrrrrrrrn_100
+  - first:
+      213: -2764309721028730508
+    second: third_background_wall_go_burrrrrrrrrn_101
+  - first:
+      213: -5684191786625592915
+    second: third_background_wall_go_burrrrrrrrrn_102
+  - first:
+      213: 487432436992720748
+    second: third_background_wall_go_burrrrrrrrrn_103
+  - first:
+      213: 1617623607921473882
+    second: third_background_wall_go_burrrrrrrrrn_104
+  - first:
+      213: 8771602864326716111
+    second: third_background_wall_go_burrrrrrrrrn_105
+  - first:
+      213: 6177234509157787809
+    second: third_background_wall_go_burrrrrrrrrn_106
+  - first:
+      213: 6559733835506986557
+    second: third_background_wall_go_burrrrrrrrrn_107
+  - first:
+      213: -7997677870292055308
+    second: third_background_wall_go_burrrrrrrrrn_108
+  - first:
+      213: 9041955344737822512
+    second: third_background_wall_go_burrrrrrrrrn_109
+  - first:
+      213: 842284352596935443
+    second: third_background_wall_go_burrrrrrrrrn_110
+  - first:
+      213: -2175742443257792995
+    second: third_background_wall_go_burrrrrrrrrn_111
+  - first:
+      213: 2619216239552734986
+    second: third_background_wall_go_burrrrrrrrrn_112
+  - first:
+      213: -1141179301609248191
+    second: third_background_wall_go_burrrrrrrrrn_113
+  - first:
+      213: 2296570168975387828
+    second: third_background_wall_go_burrrrrrrrrn_114
+  - first:
+      213: 2844230179784121405
+    second: third_background_wall_go_burrrrrrrrrn_115
+  - first:
+      213: 3639576377375534096
+    second: third_background_wall_go_burrrrrrrrrn_116
+  - first:
+      213: 5037733918129304516
+    second: third_background_wall_go_burrrrrrrrrn_117
+  - first:
+      213: 4562273057832927433
+    second: third_background_wall_go_burrrrrrrrrn_118
+  - first:
+      213: 8565510092246408166
+    second: third_background_wall_go_burrrrrrrrrn_119
+  - first:
+      213: 8383011834566947054
+    second: third_background_wall_go_burrrrrrrrrn_120
+  - first:
+      213: -5003611445196283701
+    second: third_background_wall_go_burrrrrrrrrn_121
+  - first:
+      213: -8970252798930689893
+    second: third_background_wall_go_burrrrrrrrrn_122
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_0
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b82b3948f50664b0800000000000000
+      internalID: -5447660135319394122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_1
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2aff1e308cb6ead0800000000000000
+      internalID: -2673242069813691859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_2
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76202141225b33360800000000000000
+      internalID: 7148256191537349223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_3
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4515bf4ee519930800000000000000
+      internalID: 4148201069346903252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_4
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cb3d2a78a9960b0800000000000000
+      internalID: -5734882743136568297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_5
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638aa99747a5ee800800000000000000
+      internalID: 643551253063444534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_6
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c330324c28bfb00800000000000000
+      internalID: 863427532484197533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_7
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7598510f69e68ba50800000000000000
+      internalID: 6537096453680367959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_8
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2511e079d96e0bb40800000000000000
+      internalID: 5454112713264206162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_9
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e715f90d35ac100800000000000000
+      internalID: 129007694824701518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_10
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3675da4dec2b23a0800000000000000
+      internalID: -6689203423854365124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_11
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195ce9089f5c25f20800000000000000
+      internalID: 3410005543268304273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_12
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5720762fecd009d70800000000000000
+      internalID: 9047746833868587637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_13
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e65b321859b03770800000000000000
+      internalID: 8588568277309675239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_14
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f42ae4c1e164ef0800000000000000
+      internalID: -124378832778932364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_15
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a37480bf8659230800000000000000
+      internalID: 3644934900811250226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_16
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86248822f18ba7a90800000000000000
+      internalID: -7315332200847097240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_17
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d282fadf3ac35ec50800000000000000
+      internalID: 6693823096189560877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_18
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baab49d117d8dc660800000000000000
+      internalID: 7407732479061441195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_19
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e774451005912a050800000000000000
+      internalID: 5810234300671739774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_20
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b20346d9bfc2ffa0800000000000000
+      internalID: -5768319775637568845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_21
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89902b263febc0d0800000000000000
+      internalID: -3401362077617448565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_22
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339c3ab7774bed200800000000000000
+      internalID: 206801058174060851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_23
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02c4ef90f4279c20800000000000000
+      internalID: 3213077475045458442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_24
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a732ebc9e5662cb0800000000000000
+      internalID: -4889108290641709143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_25
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38920dc16650f860800000000000000
+      internalID: 7561638752406378558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_26
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35015cb20626d7380800000000000000
+      internalID: -8971906717461442477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_27
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4871cb1e76cc9e390800000000000000
+      internalID: -7788469334019663996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_28
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ddad69e3a5e96e0800000000000000
+      internalID: -1828925173800444603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_29
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5858ad6b512e6940800000000000000
+      internalID: 5291203288772401244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_30
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88980646655082dd0800000000000000
+      internalID: -2510750923649676920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_31
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94581ef52c707c6b0800000000000000
+      internalID: -5276239907027581623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_32
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58beb5c01ad06e0a0800000000000000
+      internalID: -6852774797649384571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_33
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 88
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94289b9c322bac50800000000000000
+      internalID: 6677468516210713754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_34
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16533e5ae5fad45d0800000000000000
+      internalID: -3076610149379263135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_35
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137321b21bfbcc4c0800000000000000
+      internalID: -4265823979373971663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_36
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cc6279a33b21a70800000000000000
+      internalID: 8796290086433377409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_37
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922167e6ffc5031c0800000000000000
+      internalID: -4526015373367700951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_38
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee9c5d75b1e4d170800000000000000
+      internalID: 8202428990957068002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_39
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ded87d09a203b180800000000000000
+      internalID: -9100927496886886696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_40
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a842cb3508b8b8a70800000000000000
+      internalID: 8830304877666903178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_41
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3c11a0b5de96420800000000000000
+      internalID: 2623889233186767783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_42
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec8afd2b92d8fab0800000000000000
+      internalID: -4973994224497554204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_43
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de187a822f872c020800000000000000
+      internalID: 2360582136155046381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_44
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d25496b92e1f990800000000000000
+      internalID: -7353847559405359821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_45
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fa98c44f0095df0800000000000000
+      internalID: -191120459930423549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_46
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf28c58e0d36d7350800000000000000
+      internalID: 6016074426139575035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_47
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b6b99ccdc7ab170800000000000000
+      internalID: 8194999759671094125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_48
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0a7508db7323580800000000000000
+      internalID: -8848949030788030291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_49
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36b84958929e43f0800000000000000
+      internalID: -914632491279010246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_50
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed83fc1a61a253660800000000000000
+      internalID: 7364839042326673630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_51
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc5ef407b740e900800000000000000
+      internalID: 711647592512904435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_52
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86af2c63e68a8aad0800000000000000
+      internalID: -2690715586035254680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_53
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53b9bc605a44bce0800000000000000
+      internalID: -1390404675668692133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_54
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5b794f7d520dc40800000000000000
+      internalID: 5534965551490119147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_55
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ed772d912431860800000000000000
+      internalID: 7499410483174694544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_56
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71fb4e5036ba6970800000000000000
+      internalID: 8749005544977330559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_57
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f5f5feb9a2e76c0800000000000000
+      internalID: -4143827757909975257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_58
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8869c70ea5de673e0800000000000000
+      internalID: -2056195205278951800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_59
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa57ddc034780fee0800000000000000
+      internalID: -1229333976223746646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_60
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb6107e503e68ba0800000000000000
+      internalID: -6086928231854674954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_61
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a090dee326cd580800000000000000
+      internalID: -8801051549384504682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_62
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6099e5246b2845e80800000000000000
+      internalID: -8190778102970935034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_63
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68237431bd49b8fb0800000000000000
+      internalID: -4644454922060352890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_64
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7eefc49b4d4a4020800000000000000
+      internalID: 2326757144504823418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_65
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d0e54786046d270800000000000000
+      internalID: 8274872182712962381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_66
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4837de97f215c3d90800000000000000
+      internalID: -7116724046801308796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_67
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfca1caabfa99deb0800000000000000
+      internalID: -4694550730864743172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_68
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895765401464d5860800000000000000
+      internalID: 7520244197838189976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_69
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 56
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05c6a9b1311ed950800000000000000
+      internalID: 6475632219471136013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_70
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585464addb8126480800000000000000
+      internalID: -8907529909295495803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_71
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523a5d423e96c7460800000000000000
+      internalID: 7240778725201388325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_72
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a71e361bccd07770800000000000000
+      internalID: 8606621652714657699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_73
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6609c6c14235210800000000000000
+      internalID: 1320438820248774304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_74
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6043b46c5b02e8060800000000000000
+      internalID: 6957534439421981702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_75
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481a3c48718d72900800000000000000
+      internalID: 659733465956327812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_76
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa88ea2740a96fc00800000000000000
+      internalID: 934103316620544170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_77
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e318b0f640d59860800000000000000
+      internalID: 7536158554579276770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_78
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378344dbff3848ee0800000000000000
+      internalID: -1259736861341632397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_79
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff7cb6a853a9bbe0800000000000000
+      internalID: -1460957002955194382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_80
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ecb241598a9df50800000000000000
+      internalID: 6906736861791375001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_81
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbb28646350a6840800000000000000
+      internalID: 5217988848931486675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_82
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9de914bb05ce990800000000000000
+      internalID: -7355415326212826685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_83
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0be2970038e22010800000000000000
+      internalID: 1162746946798152461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_84
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139d4bae795c8d1c0800000000000000
+      internalID: -4478612573151504079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_85
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1422564a8e8d04a90800000000000000
+      internalID: -7331621699657063871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_86
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a702f36bd54a15b20800000000000000
+      internalID: 3121456739140968570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_87
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a97af5530303800800000000000000
+      internalID: 590024556981754446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_88
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acac93b39118c1cb0800000000000000
+      internalID: -4891893149863392566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_89
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c19fa8be7f58250800000000000000
+      internalID: 5946431474033564792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_90
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69324ff608552d4b0800000000000000
+      internalID: -5417173391650839658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_91
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38756950330faa870800000000000000
+      internalID: 8695026132519901059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_92
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5bc0aabeb611550800000000000000
+      internalID: 6129799227742402020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_93
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a79654a8ce14b150800000000000000
+      internalID: 5887364459979511714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_94
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6937c3bd4af24e4b0800000000000000
+      internalID: -5412148467093179498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_95
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4540384871e7691a0800000000000000
+      internalID: -6803111547624029100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_96
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d860b619eff37340800000000000000
+      internalID: 4860509799436019927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_97
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397aac0c64a647540800000000000000
+      internalID: 5004741938030225299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_98
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba253ab53f1b2aa0800000000000000
+      internalID: -6184815347645470021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_99
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de896a3e1b48ac30800000000000000
+      internalID: 4370826031564164822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_100
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe971eafd3e2d0f0800000000000000
+      internalID: -1093561209659613510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_101
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4716ce464f233a9d0800000000000000
+      internalID: -2764309721028730508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_102
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da11dfaafa1bd11b0800000000000000
+      internalID: -5684191786625592915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_103
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f34fa0835b3c600800000000000000
+      internalID: 487432436992720748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_104
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59f172d914f27610800000000000000
+      internalID: 1617623607921473882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_105
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 24
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca2ef6c45efab970800000000000000
+      internalID: 8771602864326716111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_106
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a862a4ce02f9b550800000000000000
+      internalID: 6177234509157787809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_107
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e218e1b2bd80b50800000000000000
+      internalID: 6559733835506986557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_108
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa4d39b95a820190800000000000000
+      internalID: -7997677870292055308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_109
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037ea0eca7a7b7d70800000000000000
+      internalID: 9041955344737822512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_110
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3130964f72560bb00800000000000000
+      internalID: 842284352596935443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_111
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16f0e286c53ec1e0800000000000000
+      internalID: -2175742443257792995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_112
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07a97cea43595420800000000000000
+      internalID: 2619216239552734986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_113
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a6d8ea877b920f0800000000000000
+      internalID: -1141179301609248191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_114
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc6983a66e0fdf10800000000000000
+      internalID: 2296570168975387828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_115
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c5a75774cb87720800000000000000
+      internalID: 2844230179784121405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_116
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c2f529e6f528230800000000000000
+      internalID: 3639576377375534096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_117
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3b807be40a9e540800000000000000
+      internalID: 5037733918129304516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_118
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c087749c23705f30800000000000000
+      internalID: 4562273057832927433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_119
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebde500c0eced670800000000000000
+      internalID: 8565510092246408166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_120
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0324339d0765470800000000000000
+      internalID: 8383011834566947054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_121
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc02ffe96e99f8ab0800000000000000
+      internalID: -5003611445196283701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: third_background_wall_go_burrrrrrrrrn_122
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9068461b92438380800000000000000
+      internalID: -8970252798930689893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
