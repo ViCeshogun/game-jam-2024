@@ -4,28 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/Felix Prototyp.unity
-    guid: dd018b82572fe5044a8aa562f4935750
-  - enabled: 1
-    path: Assets/Scenes/Felix.unity
-    guid: b1fdeb216d05e5c4e960141d7145094b
-  - enabled: 0
-<<<<<<< HEAD
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Tutorial leval Nino.unity
-    guid: fcd08ea3ab17c284a92d171ecf7fce5a
-=======
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/Tutorial leval Nino.unity
-    guid: fcd08ea3ab17c284a92d171ecf7fce5a
-  - enabled: 1
-    path: Assets/Scenes/Nino.unity
-    guid: 91ac2520cfc3b3f47bad35c333fcf07a
->>>>>>> 43f4315db65c76af2123a72a9e58babd68fa38ed
+  m_Scenes: []
   m_configObjects: {}
