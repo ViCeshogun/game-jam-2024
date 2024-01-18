@@ -17,8 +17,8 @@ public class player_movent : MonoBehaviour
     private bool isDashing;
     private float dashTime;
     private float dashCooldownTimer;
-    public float Shield = 0;
-
+    public Transform player;
+    public swing_script swing_code;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -41,11 +41,12 @@ public class player_movent : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
 
-        // Wall jump
-        if (wall_jump == true && Input.GetButtonDown("Jump"))
+        // wall jump
+        if ( wall_jump == true && Input.GetButtonDown("Jump")) 
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             wall_jump = false;
+          
         }
 
         // Update dash cooldown timer
@@ -55,19 +56,6 @@ public class player_movent : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift) && !isDashing && dashCooldownTimer <= 0f)
         {
             StartCoroutine(Dash(horizontalInput));
-        }
-
-        // Player dash with shield (triggered by left Shift)
-        if (Input.GetKeyDown(KeyCode.LeftShift) && !isDashing && dashCooldownTimer <= 0f && Shield == 1)
-        {
-            StartCoroutine(Dash(horizontalInput));
-
-            gameObject.tag = "Untagged";
-        }
-
-        if (Shield == 0)
-        {
-            gameObject.tag = "Player";
         }
     }
 
@@ -93,20 +81,29 @@ public class player_movent : MonoBehaviour
         rb.velocity = new Vector2(0f, rb.velocity.y);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void OnCollisionStay2D(Collision2D collision)
     {
-        Debug.Log("collide");
-        if (other.CompareTag("Wall"))
+        if (collision.gameObject.tag == "rope")
         {
-            Debug.Log("trigger close");
-        }
-    }
+            if (Input.GetKey(KeyCode.Space) == false)
+            {
+                rb.transform.position = swing_code.slef.transform.position;
+                rb.transform.position = new Vector2(collision.transform.position.x, collision.transform.position.y - 0.8f);
+                player.rotation = Quaternion.Euler(0, 0, swing_code.swing_val);
 
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Wall"))
-        {
-            Debug.Log("trigger not close");
+            }
+
+            if (Input.GetKey(KeyCode.Space) == true)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, jumpForce + 3);
+                player.rotation = Quaternion.Euler(0, 0, 0);
+            }
+
+
         }
     }
+    
+
+
+
 }

@@ -33,6 +33,17 @@ public class wall_jump : MonoBehaviour
         }
         
     }
-   
+    private void OnCollisionExit2D(Collision2D collsion)
+    {
+
+        StartCoroutine(left_wall());
+
+    }
+
+    IEnumerator left_wall() 
+    {
+        yield return new WaitForSeconds(1);
+        player_script.wall_jump = false;
+    }
 
 }
