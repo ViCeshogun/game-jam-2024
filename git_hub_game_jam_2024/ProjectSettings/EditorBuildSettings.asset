@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: fdab09b9342c21c4983b67e7cf687123
+  - enabled: 1
+    path: Assets/Scenes/Felix Prototyp.unity
+    guid: dd018b82572fe5044a8aa562f4935750
+  - enabled: 1
+    path: Assets/Scenes/Winscreen.unity
+    guid: 3c73b26513fa9794c9b471d33983ce1d
   m_configObjects: {}
