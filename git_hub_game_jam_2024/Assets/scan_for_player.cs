@@ -21,13 +21,14 @@ public class scan_for_player : MonoBehaviour
     {
         //self.transform.localScale = new Vector3(scale,10, 0);
 
+        self.transform.localScale = new Vector2(scale,10);
         if (timer_script.time >= 10 && run_scan != 1)
         {
             run_scan = 1;
-           
+
             StartCoroutine(scan());
         }
-        if (scale>65) { grow = false;  self.transform.position = new Vector2(16,0); }
+        if (scale>48) { grow = false;  self.transform.position = new Vector2(16,0); }
        if ( scale < 0) { grow = true; self.transform.position = new Vector2(-16, 0); }
 
     }

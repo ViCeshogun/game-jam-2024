@@ -32,8 +32,8 @@ public class player_movent : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKey(KeyCode.A)) { player.rotation = Quaternion.Euler(0, -180, 0); }
-        if (Input.GetKey(KeyCode.D)) { player.rotation = Quaternion.Euler(0, 0, 0); }
+        if (horizontalInput < 0) { player.rotation = Quaternion.Euler(0, -180, 0); }
+        if (horizontalInput > 0) { player.rotation = Quaternion.Euler(0, 0, 0); }
 
         // Check if the player is grounded
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
@@ -41,7 +41,7 @@ public class player_movent : MonoBehaviour
         // Player movement
         horizontalInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
-        if (horizontalInput == 1) { animation_move = true; }
+        if (horizontalInput > 0.5f|| horizontalInput < -0.5f) { animation_move = true; }
         else { animation_move = false; }
 
 
