@@ -1,7 +1,73 @@
 fileFormatVersion: 2
 guid: 4fa08b48a3c73a14494ba67aa342cc8c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7279784613568669165
+    second: SASSY_0
+  - first:
+      213: -5515482540030671329
+    second: SASSY_1
+  - first:
+      213: -1466824206246757206
+    second: SASSY_2
+  - first:
+      213: 7540135478877301398
+    second: SASSY_3
+  - first:
+      213: 3668273359707403142
+    second: SASSY_4
+  - first:
+      213: 1738321366348470495
+    second: SASSY_5
+  - first:
+      213: -2659263276125212961
+    second: SASSY_6
+  - first:
+      213: -7840874965637827800
+    second: SASSY_7
+  - first:
+      213: -8241296211462177739
+    second: SASSY_8
+  - first:
+      213: -139505847134688068
+    second: SASSY_9
+  - first:
+      213: 6042117036576669951
+    second: SASSY_10
+  - first:
+      213: -5400633864471943167
+    second: SASSY_11
+  - first:
+      213: 5375663403241618
+    second: SASSY_12
+  - first:
+      213: 8918963663120575786
+    second: SASSY_13
+  - first:
+      213: 1551642697209487505
+    second: SASSY_14
+  - first:
+      213: 2769382676399488533
+    second: SASSY_15
+  - first:
+      213: -2268691963479381730
+    second: SASSY_16
+  - first:
+      213: 1072420698210174414
+    second: SASSY_17
+  - first:
+      213: -1558719831967965920
+    second: SASSY_18
+  - first:
+      213: -8601902243287757444
+    second: SASSY_19
+  - first:
+      213: -174977984807771424
+    second: SASSY_20
+  - first:
+      213: 8072009304458921933
+    second: SASSY_21
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,12 +107,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,9 +141,483 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SASSY_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 480
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a92e2c67209fa90800000000000000
+      internalID: -7279784613568669165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 480
+        width: 110
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f164a942ad11573b0800000000000000
+      internalID: -5515482540030671329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_2
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 480
+        width: 112
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacb7bee72bc4abe0800000000000000
+      internalID: -1466824206246757206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_3
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 480
+        width: 111
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a2dc8c441f3a860800000000000000
+      internalID: 7540135478877301398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_4
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 480
+        width: 117
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68373607f2358e230800000000000000
+      internalID: 3668273359707403142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 117
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd81caa9212cf1810800000000000000
+      internalID: 1738321366348470495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 360
+        width: 117
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdea056c326681bd0800000000000000
+      internalID: -2659263276125212961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_7
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 360
+        width: 109
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82377e0f2cd9f2390800000000000000
+      internalID: -7840874965637827800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_8
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 360
+        width: 108
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c360b82c801ad80800000000000000
+      internalID: -8241296211462177739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_9
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 360
+        width: 106
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc6271db20601ef0800000000000000
+      internalID: -139505847134688068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 240
+        width: 113
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff00d78ae69e9d350800000000000000
+      internalID: 6042117036576669951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_11
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 242
+        width: 114
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10864323d181d05b0800000000000000
+      internalID: -5400633864471943167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 240
+        width: 102
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290159b2329131000800000000000000
+      internalID: 5375663403241618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_13
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 240
+        width: 106
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d2be8623686cb70800000000000000
+      internalID: 8918963663120575786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_14
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 240
+        width: 107
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1902089efca888510800000000000000
+      internalID: 1551642697209487505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 120
+        width: 109
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e79e11fd2de6620800000000000000
+      internalID: 2769382676399488533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_16
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 120
+        width: 111
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e192704edacf380e0800000000000000
+      internalID: -2268691963479381730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_17
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 122
+        width: 112
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5089e61f002ee00800000000000000
+      internalID: 1072420698210174414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_18
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 120
+        width: 116
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d513f32905e5ae0800000000000000
+      internalID: -1558719831967965920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_19
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 124
+        width: 110
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d823c0c77ef9880800000000000000
+      internalID: -8601902243287757444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 117
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2e40c237a529df0800000000000000
+      internalID: -174977984807771424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SASSY_21
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 0
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc70cefe1b9850070800000000000000
+      internalID: 8072009304458921933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
