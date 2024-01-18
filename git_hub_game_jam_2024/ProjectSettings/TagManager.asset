@@ -3,16 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
-
   tags:
   - rope
-  - Wall
-  - Nextlevel
-  - OneWayPlatform
-  - Enemy
-  - Projectile
-   bac7df7e534ffa6e7f73d130c04b6fdd3a340221
   layers:
   - Default
   - TransparentFX
@@ -50,11 +42,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-
-  - name: bob
-    uniqueID: 1994300603
-    locked: 0
   - name: first
-    uniqueID: 2320944873
+    uniqueID: 642414125
     locked: 0
- bac7df7e534ffa6e7f73d130c04b6fdd3a340221
