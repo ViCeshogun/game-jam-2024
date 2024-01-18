@@ -39,7 +39,7 @@ public class player_movent : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
 
         // Player movement
-         horizontalInput = Input.GetAxis("Horizontal");
+        horizontalInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
         if (horizontalInput > 0.5f|| horizontalInput < -0.5f) { animation_move = true; }
         else { animation_move = false; }
@@ -54,11 +54,11 @@ public class player_movent : MonoBehaviour
         }
 
         // wall jump
-        if ( wall_jump == true && Input.GetButtonDown("Jump")) 
+        if (wall_jump == true && Input.GetButtonDown("Jump"))
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             wall_jump = false;
-          
+
         }
 
         // Update dash cooldown timer
@@ -68,6 +68,13 @@ public class player_movent : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift) && !isDashing && dashCooldownTimer <= 0f)
         {
             StartCoroutine(Dash(horizontalInput));
+            gameObject.tag = "Untagged";
+        }
+
+        if (isDashing == false)
+        {
+            gameObject.tag = "Player";
+
         }
     }
 
@@ -91,7 +98,10 @@ public class player_movent : MonoBehaviour
         dashCooldownTimer = dashCooldown;
 
         rb.velocity = new Vector2(0f, rb.velocity.y);
+
+
     }
+
 
     public void OnCollisionStay2D(Collision2D collision)
     {
@@ -99,7 +109,7 @@ public class player_movent : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space) == false)
             {
-                
+
                 rb.transform.position = swing_code.slef.transform.position;
                 rb.transform.position = new Vector2(collision.transform.position.x, collision.transform.position.y - 0.8f);
                 player.rotation = Quaternion.Euler(0, 0, swing_code.swing_val);
@@ -115,8 +125,5 @@ public class player_movent : MonoBehaviour
 
         }
     }
-    
-
-
-
-}
+   
+} 
