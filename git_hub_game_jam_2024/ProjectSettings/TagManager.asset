@@ -4,10 +4,16 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - rope
   - Wall
   - Nextlevel
   - Enamy
+=======
+  - Nextlevel
+  - Wall
+  - Enemy
+>>>>>>> 43f4315db65c76af2123a72a9e58babd68fa38ed
   layers:
   - Default
   - TransparentFX
@@ -42,9 +48,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: 'Bacround '
+    uniqueID: 2753674189
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: first
-    uniqueID: 2320944873
+  - name: bACK
+    uniqueID: 1365664587
+    locked: 0
+  - name: Floor
+    uniqueID: 2321115371
+    locked: 0
+  - name: Mid
+    uniqueID: 3238493095
+    locked: 0
+  - name: Player
+    uniqueID: 1224840355
     locked: 0
