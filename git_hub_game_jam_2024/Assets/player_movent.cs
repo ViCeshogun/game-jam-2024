@@ -19,6 +19,9 @@ public class player_movent : MonoBehaviour
     private float dashCooldownTimer;
     public Transform player;
     public swing_script swing_code;
+    public bool animation_move;
+    public Animator animator;
+    public float horizontalInput;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -28,12 +31,21 @@ public class player_movent : MonoBehaviour
 
     void Update()
     {
+
+        if (Input.GetKey(KeyCode.A)) { player.rotation = Quaternion.Euler(0, -180, 0); }
+        if (Input.GetKey(KeyCode.D)) { player.rotation = Quaternion.Euler(0, 0, 0); }
+
         // Check if the player is grounded
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
 
         // Player movement
-        float horizontalInput = Input.GetAxis("Horizontal");
+         horizontalInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
+        if (horizontalInput == 1) { animation_move = true; }
+        else { animation_move = false; }
+
+
+        animator.SetBool("animation", animation_move);
 
         // Player jump
         if (isGrounded && Input.GetButtonDown("Jump"))
@@ -87,6 +99,7 @@ public class player_movent : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space) == false)
             {
+                
                 rb.transform.position = swing_code.slef.transform.position;
                 rb.transform.position = new Vector2(collision.transform.position.x, collision.transform.position.y - 0.8f);
                 player.rotation = Quaternion.Euler(0, 0, swing_code.swing_val);
