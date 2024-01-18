@@ -87,6 +87,7 @@ public class Enemy : MonoBehaviour
     {
         while (true)
         {
+            rb.transform.tag = "Enemy";
             // Move towards the player
             Vector2 direction = (player.position - transform.position).normalized;
             rb.velocity = direction * moveSpeed;
