@@ -9,6 +9,7 @@ public class npc : MonoBehaviour
     public float random;
     public Vector2 pos;
     public int can_move;
+    public timer timer_script;
     // Start is called before the first frame update
     public void Start()
     {
@@ -19,7 +20,7 @@ public class npc : MonoBehaviour
 
     // Update is called once per frame
   public void Update()
-    {
+    { if (timer_script.time > 20) { random = 7; }
        if (random == 1 && can_move==1) { self.AddForce (new Vector2(1, 0)); self.drag = 1; } 
        if (random == 2 && can_move == 1) { self.AddForce (new Vector2(-1, 0)); self.drag = 1; } 
        if (random == 3 && can_move == 1) { self.drag = 1000; } 
@@ -44,7 +45,7 @@ public class npc : MonoBehaviour
     {
         
         yield return new WaitForSeconds(1);
-        random = Random.Range(1, 4);
+        if (timer_script.time < 20) { random = Random.Range(1, 4); }
         StartCoroutine(randomiser());
 
     }
