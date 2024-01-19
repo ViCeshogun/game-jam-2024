@@ -4834,6 +4834,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3642328561085057877, guid: 2e859a29ede815244ae02dda808a20a7, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3642328561085057877, guid: 2e859a29ede815244ae02dda808a20a7, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 635021315
+      objectReference: {fileID: 0}
     - target: {fileID: 4049802589867097148, guid: 2e859a29ede815244ae02dda808a20a7, type: 3}
       propertyPath: m_Name
       value: BoB
@@ -17556,6 +17564,7 @@ MonoBehaviour:
   time: 0
   bullet_spin: {fileID: 0}
   random_check: 0
+  camra_: {fileID: 0}
 --- !u!1 &2131715409
 GameObject:
   m_ObjectHideFlags: 0
