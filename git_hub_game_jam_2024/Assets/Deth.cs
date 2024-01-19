@@ -9,6 +9,7 @@ public class Deth: MonoBehaviour
         {
             ResetScene();
         }
+        
     }
 
     private void ResetScene()

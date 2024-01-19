@@ -13,6 +13,9 @@ public class Enemy : MonoBehaviour
     public float randomMoveDuration = 5f; // Adjust the duration for random movement
     private float timer;
     public timer timer_script;
+    public Animator animtor;
+    public int is_walking;
+    public bool evil;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -25,6 +28,9 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
+       
+        animtor.SetInteger("speed", is_walking);
+        animtor.SetBool("evil", evil);
         if (isMovingRandomly)
         {
             // Update the timer for random movement
@@ -48,9 +54,9 @@ public class Enemy : MonoBehaviour
             
             pos = transform.position;
 
-            if (random == 1 && can_move == 1) { rb.AddForce(new Vector2(2, 0)); rb.drag = 1; }
-            if (random == 2 && can_move == 1) { rb.AddForce(new Vector2(-2, 0)); rb.drag = 1; }
-            if (random == 3 && can_move == 1) { rb.drag = 1000; }
+            if (random == 1 && can_move == 1) { rb.AddForce(new Vector2(2, 0)); rb.drag = 1; is_walking = 2; }
+            if (random == 2 && can_move == 1) { rb.AddForce(new Vector2(-2, 0)); rb.drag = 1; is_walking = 2; }
+            if (random == 3 && can_move == 1) { rb.drag = 1000; is_walking = 0; }
 
             if (transform.position.x > pos.x + 7)
             {
@@ -87,6 +93,7 @@ public class Enemy : MonoBehaviour
     {
         while (true)
         {
+            evil = true;
             rb.transform.tag = "Enamy";
             // Move towards the player
             Vector2 direction = (player.position - transform.position).normalized;
