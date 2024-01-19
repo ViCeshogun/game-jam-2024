@@ -28,18 +28,12 @@ public class book_appire : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
 
-            StartCoroutine(book_relay());
+            
             Debug.Log("found");
 
         }
 
     }
 
-    IEnumerator book_relay() 
-    {
-        yield return new WaitForSeconds(3);
-        book.SetActive(true);
-        book_script.book_true = true;
-        book_script.book_swap = false;
-    }
+   
 }

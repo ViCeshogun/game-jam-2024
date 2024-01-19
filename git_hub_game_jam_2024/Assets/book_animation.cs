@@ -14,6 +14,7 @@ public class book_animation : MonoBehaviour
     void Start()
     {
         self.SetActive (false);
+
     }
 
     // Update is called once per frame
@@ -22,5 +23,15 @@ public class book_animation : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.E)) { book_true = false; }
         animat.SetBool("openbook", book_true);
         animat.SetBool("NewBool", book_swap);
+        StartCoroutine(book_relay());
+    }
+
+
+    IEnumerator book_relay()
+    {
+        yield return new WaitForSeconds(3);
+       self.SetActive(true);
+        book_true = true;
+       book_swap = false;
     }
 }
