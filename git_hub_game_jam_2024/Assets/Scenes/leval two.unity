@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 14879663}
   - component: {fileID: 14879664}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 49681278}
   - component: {fileID: 49681277}
   - component: {fileID: 49681276}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: jump wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -522,7 +522,7 @@ GameObject:
   - component: {fileID: 101912324}
   - component: {fileID: 101912326}
   - component: {fileID: 101912325}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -630,7 +630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 129388496}
   - component: {fileID: 129388498}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -835,7 +835,7 @@ GameObject:
   - component: {fileID: 172292369}
   - component: {fileID: 172292368}
   - component: {fileID: 172292370}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: jump wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -959,7 +959,7 @@ GameObject:
   - component: {fileID: 218394601}
   - component: {fileID: 218394603}
   - component: {fileID: 218394602}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1068,7 +1068,7 @@ GameObject:
   - component: {fileID: 241798107}
   - component: {fileID: 241798109}
   - component: {fileID: 241798108}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1177,7 +1177,7 @@ GameObject:
   - component: {fileID: 268667386}
   - component: {fileID: 268667388}
   - component: {fileID: 268667387}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1286,7 +1286,7 @@ GameObject:
   - component: {fileID: 327218502}
   - component: {fileID: 327218504}
   - component: {fileID: 327218503}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1395,7 +1395,7 @@ GameObject:
   - component: {fileID: 378621440}
   - component: {fileID: 378621442}
   - component: {fileID: 378621441}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1505,6 +1505,8 @@ GameObject:
   - component: {fileID: 408830723}
   - component: {fileID: 408830722}
   - component: {fileID: 408830724}
+  - component: {fileID: 408830725}
+  - component: {fileID: 408830726}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -1520,7 +1522,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 408830720}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25, y: -4.8, z: 3.4819381}
+  m_LocalPosition: {x: 25, y: -3.7, z: 3.4819381}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 704646444}
@@ -1544,6 +1546,9 @@ MonoBehaviour:
   can_move: 0
   randomMoveDuration: 5
   timer_script: {fileID: 550487105}
+  animtor: {fileID: 408830725}
+  is_walking: 0
+  evil: 0
 --- !u!212 &408830723
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1581,11 +1586,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1974022423
-  m_SortingLayer: 0
+  m_SortingLayerID: 635021315
+  m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.15242553, g: 1, b: 0, a: 1}
+  m_Sprite: {fileID: 701995508655157351, guid: f4c4fc4092c36754fa762ce3cec91db5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1615,7 +1620,52 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 6
+--- !u!95 &408830725
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408830720}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &408830726
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408830720}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.8125, y: 2.625}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8125, y: 2.625}
+  m_EdgeRadius: 0
 --- !u!1 &420082615
 GameObject:
   m_ObjectHideFlags: 0
@@ -1628,6 +1678,8 @@ GameObject:
   - component: {fileID: 420082618}
   - component: {fileID: 420082617}
   - component: {fileID: 420082619}
+  - component: {fileID: 420082620}
+  - component: {fileID: 420082621}
   m_Layer: 0
   m_Name: Square (5)
   m_TagString: Untagged
@@ -1643,7 +1695,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420082615}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.3, y: -11.3, z: 3.4819381}
+  m_LocalPosition: {x: 13.02, y: -10.76, z: 3.4819381}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 704646444}
@@ -1667,6 +1719,9 @@ MonoBehaviour:
   can_move: 0
   randomMoveDuration: 5
   timer_script: {fileID: 550487105}
+  animtor: {fileID: 420082620}
+  is_walking: 0
+  evil: 0
 --- !u!212 &420082618
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1704,11 +1759,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1974022423
-  m_SortingLayer: 0
+  m_SortingLayerID: 635021315
+  m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.15242553, g: 1, b: 0, a: 1}
+  m_Sprite: {fileID: 701995508655157351, guid: f4c4fc4092c36754fa762ce3cec91db5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1738,7 +1793,52 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 6
+--- !u!95 &420082620
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420082615}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &420082621
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420082615}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.8125, y: 2.625}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8125, y: 2.625}
+  m_EdgeRadius: 0
 --- !u!1 &502795565
 GameObject:
   m_ObjectHideFlags: 0
@@ -1750,7 +1850,7 @@ GameObject:
   - component: {fileID: 502795566}
   - component: {fileID: 502795568}
   - component: {fileID: 502795567}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1859,7 +1959,7 @@ GameObject:
   - component: {fileID: 503591640}
   - component: {fileID: 503591642}
   - component: {fileID: 503591641}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1969,7 +2069,7 @@ GameObject:
   - component: {fileID: 510217365}
   - component: {fileID: 510217364}
   - component: {fileID: 510217363}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: jump wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2094,7 +2194,7 @@ GameObject:
   - component: {fileID: 537077506}
   - component: {fileID: 537077505}
   - component: {fileID: 537077504}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: rope
   m_TagString: rope
   m_Icon: {fileID: 0}
@@ -2257,13 +2357,14 @@ MonoBehaviour:
   groundCheck: {fileID: 808368846}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 64
   wall_jump: 0
   player: {fileID: 550487101}
   swing_code: {fileID: 0}
   animation_move: 0
   animator: {fileID: 550487104}
   horizontalInput: 0
+  book_true: 0
 --- !u!212 &550487100
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2502,7 +2603,7 @@ GameObject:
   - component: {fileID: 678616057}
   - component: {fileID: 678616059}
   - component: {fileID: 678616058}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33888,7 +33989,7 @@ GameObject:
   m_Component:
   - component: {fileID: 831871676}
   - component: {fileID: 831871677}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: anchor (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33972,7 +34073,7 @@ GameObject:
   - component: {fileID: 835703083}
   - component: {fileID: 835703085}
   - component: {fileID: 835703084}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34081,7 +34182,7 @@ GameObject:
   - component: {fileID: 869614995}
   - component: {fileID: 869614997}
   - component: {fileID: 869614996}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34190,7 +34291,7 @@ GameObject:
   - component: {fileID: 916912173}
   - component: {fileID: 916912175}
   - component: {fileID: 916912174}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34300,6 +34401,8 @@ GameObject:
   - component: {fileID: 957152663}
   - component: {fileID: 957152662}
   - component: {fileID: 957152664}
+  - component: {fileID: 957152665}
+  - component: {fileID: 957152666}
   m_Layer: 0
   m_Name: Square (1)
   m_TagString: Untagged
@@ -34315,7 +34418,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 957152660}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -27.7, y: -4.3, z: 3.4819381}
+  m_LocalPosition: {x: -27.67, y: -3.71, z: 3.4819381}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 704646444}
@@ -34339,6 +34442,9 @@ MonoBehaviour:
   can_move: 0
   randomMoveDuration: 5
   timer_script: {fileID: 550487105}
+  animtor: {fileID: 957152665}
+  is_walking: 0
+  evil: 0
 --- !u!212 &957152663
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34376,11 +34482,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1974022423
-  m_SortingLayer: 0
+  m_SortingLayerID: 635021315
+  m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.15242553, g: 1, b: 0, a: 1}
+  m_Sprite: {fileID: 701995508655157351, guid: f4c4fc4092c36754fa762ce3cec91db5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -34410,7 +34516,52 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 6
+--- !u!95 &957152665
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957152660}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &957152666
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957152660}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.8125, y: 2.625}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8125, y: 2.625}
+  m_EdgeRadius: 0
 --- !u!1 &992725093
 GameObject:
   m_ObjectHideFlags: 0
@@ -34423,7 +34574,7 @@ GameObject:
   - component: {fileID: 992725097}
   - component: {fileID: 992725096}
   - component: {fileID: 992725095}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: rope
   m_TagString: rope
   m_Icon: {fileID: 0}
@@ -34554,7 +34705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1018307208}
   - component: {fileID: 1018307209}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: anchor (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34639,7 +34790,7 @@ GameObject:
   - component: {fileID: 1093165068}
   - component: {fileID: 1093165067}
   - component: {fileID: 1093165066}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34762,7 +34913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1152048942}
   - component: {fileID: 1152048943}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: anchor (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34846,7 +34997,7 @@ GameObject:
   - component: {fileID: 1390615955}
   - component: {fileID: 1390615957}
   - component: {fileID: 1390615956}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34956,7 +35107,7 @@ GameObject:
   - component: {fileID: 1442347981}
   - component: {fileID: 1442347980}
   - component: {fileID: 1442347979}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: jump wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35081,7 +35232,7 @@ GameObject:
   - component: {fileID: 1444154912}
   - component: {fileID: 1444154911}
   - component: {fileID: 1444154910}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35205,7 +35356,7 @@ GameObject:
   - component: {fileID: 1455048380}
   - component: {fileID: 1455048382}
   - component: {fileID: 1455048381}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35314,7 +35465,7 @@ GameObject:
   - component: {fileID: 1456128189}
   - component: {fileID: 1456128191}
   - component: {fileID: 1456128190}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35422,7 +35573,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1458778084}
   - component: {fileID: 1458778086}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35505,7 +35656,7 @@ GameObject:
   - component: {fileID: 1463093680}
   - component: {fileID: 1463093682}
   - component: {fileID: 1463093681}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35615,7 +35766,7 @@ GameObject:
   - component: {fileID: 1513804304}
   - component: {fileID: 1513804303}
   - component: {fileID: 1513804302}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: rope
   m_TagString: rope
   m_Icon: {fileID: 0}
@@ -35795,7 +35946,7 @@ GameObject:
   - component: {fileID: 1542320520}
   - component: {fileID: 1542320519}
   - component: {fileID: 1542320518}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35919,7 +36070,7 @@ GameObject:
   - component: {fileID: 1542856404}
   - component: {fileID: 1542856406}
   - component: {fileID: 1542856405}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36029,6 +36180,8 @@ GameObject:
   - component: {fileID: 1615894355}
   - component: {fileID: 1615894354}
   - component: {fileID: 1615894356}
+  - component: {fileID: 1615894357}
+  - component: {fileID: 1615894358}
   m_Layer: 0
   m_Name: Square (7)
   m_TagString: Untagged
@@ -36044,7 +36197,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1615894352}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.55, y: -11.47, z: 3.4819381}
+  m_LocalPosition: {x: -22.33, y: -10.7, z: 3.4819381}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 704646444}
@@ -36068,6 +36221,9 @@ MonoBehaviour:
   can_move: 0
   randomMoveDuration: 5
   timer_script: {fileID: 550487105}
+  animtor: {fileID: 1615894357}
+  is_walking: 0
+  evil: 0
 --- !u!212 &1615894355
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36105,11 +36261,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1974022423
-  m_SortingLayer: 0
+  m_SortingLayerID: 635021315
+  m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.15242553, g: 1, b: 0, a: 1}
+  m_Sprite: {fileID: 701995508655157351, guid: f4c4fc4092c36754fa762ce3cec91db5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -36139,7 +36295,52 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 6
+--- !u!95 &1615894357
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615894352}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &1615894358
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615894352}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.8125, y: 2.625}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8125, y: 2.625}
+  m_EdgeRadius: 0
 --- !u!1 &1628442856
 GameObject:
   m_ObjectHideFlags: 0
@@ -36151,7 +36352,7 @@ GameObject:
   - component: {fileID: 1628442857}
   - component: {fileID: 1628442859}
   - component: {fileID: 1628442858}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36260,7 +36461,7 @@ GameObject:
   - component: {fileID: 1703831752}
   - component: {fileID: 1703831754}
   - component: {fileID: 1703831753}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36369,7 +36570,7 @@ GameObject:
   - component: {fileID: 1722720786}
   - component: {fileID: 1722720788}
   - component: {fileID: 1722720787}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45743,7 +45944,7 @@ GameObject:
   - component: {fileID: 1797636884}
   - component: {fileID: 1797636886}
   - component: {fileID: 1797636885}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45860,7 +46061,7 @@ GameObject:
   - component: {fileID: 1797778867}
   - component: {fileID: 1797778866}
   - component: {fileID: 1797778865}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: bottem_floor coliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46153,6 +46354,8 @@ GameObject:
   - component: {fileID: 1813759797}
   - component: {fileID: 1813759796}
   - component: {fileID: 1813759798}
+  - component: {fileID: 1813759799}
+  - component: {fileID: 1813759800}
   m_Layer: 0
   m_Name: Square (6)
   m_TagString: Untagged
@@ -46168,7 +46371,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813759794}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.3, y: -11.47, z: 3.4819381}
+  m_LocalPosition: {x: -4.36, y: -10.73, z: 3.4819381}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 704646444}
@@ -46192,6 +46395,9 @@ MonoBehaviour:
   can_move: 0
   randomMoveDuration: 5
   timer_script: {fileID: 550487105}
+  animtor: {fileID: 1813759799}
+  is_walking: 0
+  evil: 0
 --- !u!212 &1813759797
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -46229,11 +46435,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1974022423
-  m_SortingLayer: 0
+  m_SortingLayerID: 635021315
+  m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.15242553, g: 1, b: 0, a: 1}
+  m_Sprite: {fileID: 701995508655157351, guid: f4c4fc4092c36754fa762ce3cec91db5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -46263,7 +46469,52 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 6
+--- !u!95 &1813759799
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813759794}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &1813759800
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813759794}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.8125, y: 2.625}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8125, y: 2.625}
+  m_EdgeRadius: 0
 --- !u!1 &1862413042
 GameObject:
   m_ObjectHideFlags: 0
@@ -46276,7 +46527,7 @@ GameObject:
   - component: {fileID: 1862413045}
   - component: {fileID: 1862413044}
   - component: {fileID: 1862413046}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: jump wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46400,7 +46651,7 @@ GameObject:
   - component: {fileID: 1898553321}
   - component: {fileID: 1898553323}
   - component: {fileID: 1898553322}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46509,7 +46760,7 @@ GameObject:
   - component: {fileID: 1969142844}
   - component: {fileID: 1969142846}
   - component: {fileID: 1969142845}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48271,6 +48522,8 @@ GameObject:
   - component: {fileID: 2027477903}
   - component: {fileID: 2027477902}
   - component: {fileID: 2027477904}
+  - component: {fileID: 2027477905}
+  - component: {fileID: 2027477906}
   m_Layer: 0
   m_Name: Square (4)
   m_TagString: Untagged
@@ -48286,7 +48539,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2027477900}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -30.7, y: -11.4, z: 3.4819381}
+  m_LocalPosition: {x: -30.84, y: -10.72, z: 3.4819381}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 704646444}
@@ -48310,6 +48563,9 @@ MonoBehaviour:
   can_move: 0
   randomMoveDuration: 5
   timer_script: {fileID: 550487105}
+  animtor: {fileID: 2027477905}
+  is_walking: 0
+  evil: 0
 --- !u!212 &2027477903
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -48347,11 +48603,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1974022423
-  m_SortingLayer: 0
+  m_SortingLayerID: 635021315
+  m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.15242553, g: 1, b: 0, a: 1}
+  m_Sprite: {fileID: 701995508655157351, guid: f4c4fc4092c36754fa762ce3cec91db5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -48381,7 +48637,52 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 6
+--- !u!95 &2027477905
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027477900}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &2027477906
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027477900}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.8125, y: 2.625}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8125, y: 2.625}
+  m_EdgeRadius: 0
 --- !u!1 &2044326450
 GameObject:
   m_ObjectHideFlags: 0
@@ -48394,6 +48695,8 @@ GameObject:
   - component: {fileID: 2044326453}
   - component: {fileID: 2044326452}
   - component: {fileID: 2044326454}
+  - component: {fileID: 2044326455}
+  - component: {fileID: 2044326456}
   m_Layer: 0
   m_Name: Square (2)
   m_TagString: Untagged
@@ -48409,7 +48712,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044326450}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -56.4, y: -4.3, z: 3.4819381}
+  m_LocalPosition: {x: -56.58, y: -3.75, z: 3.4819381}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 704646444}
@@ -48433,6 +48736,9 @@ MonoBehaviour:
   can_move: 0
   randomMoveDuration: 5
   timer_script: {fileID: 550487105}
+  animtor: {fileID: 2044326455}
+  is_walking: 0
+  evil: 0
 --- !u!212 &2044326453
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -48470,11 +48776,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1974022423
-  m_SortingLayer: 0
+  m_SortingLayerID: 635021315
+  m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.15242553, g: 1, b: 0, a: 1}
+  m_Sprite: {fileID: 701995508655157351, guid: f4c4fc4092c36754fa762ce3cec91db5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -48504,7 +48810,52 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 6
+--- !u!95 &2044326455
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044326450}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &2044326456
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044326450}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.8125, y: 2.625}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8125, y: 2.625}
+  m_EdgeRadius: 0
 --- !u!1 &2079930435
 GameObject:
   m_ObjectHideFlags: 0
@@ -48516,7 +48867,7 @@ GameObject:
   - component: {fileID: 2079930436}
   - component: {fileID: 2079930438}
   - component: {fileID: 2079930437}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: jump platform (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48625,7 +48976,7 @@ GameObject:
   - component: {fileID: 2088205703}
   - component: {fileID: 2088205706}
   - component: {fileID: 2088205705}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48735,6 +49086,8 @@ GameObject:
   - component: {fileID: 2121239089}
   - component: {fileID: 2121239088}
   - component: {fileID: 2121239090}
+  - component: {fileID: 2121239091}
+  - component: {fileID: 2121239092}
   m_Layer: 0
   m_Name: Square (3)
   m_TagString: Untagged
@@ -48750,7 +49103,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2121239086}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -67.3, y: -11.3, z: 3.4819381}
+  m_LocalPosition: {x: -67.55, y: -10.73, z: 3.4819381}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 704646444}
@@ -48774,6 +49127,9 @@ MonoBehaviour:
   can_move: 0
   randomMoveDuration: 5
   timer_script: {fileID: 550487105}
+  animtor: {fileID: 2121239091}
+  is_walking: 0
+  evil: 0
 --- !u!212 &2121239089
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -48811,11 +49167,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1974022423
-  m_SortingLayer: 0
+  m_SortingLayerID: 635021315
+  m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.15242553, g: 1, b: 0, a: 1}
+  m_Sprite: {fileID: 701995508655157351, guid: f4c4fc4092c36754fa762ce3cec91db5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -48845,4 +49201,49 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 6
+--- !u!95 &2121239091
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121239086}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &2121239092
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121239086}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.8125, y: 2.625}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8125, y: 2.625}
+  m_EdgeRadius: 0
