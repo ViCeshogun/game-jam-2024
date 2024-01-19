@@ -22,6 +22,7 @@ public class player_movent : MonoBehaviour
     public bool animation_move;
     public Animator animator;
     public float horizontalInput;
+    public bool book_true;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -31,7 +32,7 @@ public class player_movent : MonoBehaviour
 
     void Update()
     {
-
+       
         if (horizontalInput < 0) { player.rotation = Quaternion.Euler(0, -180, 0); }
         if (horizontalInput > 0) { player.rotation = Quaternion.Euler(0, 0, 0); }
 
@@ -105,6 +106,7 @@ public class player_movent : MonoBehaviour
 
     public void OnCollisionStay2D(Collision2D collision)
     {
+       
         if (collision.gameObject.tag == "rope")
         {
             if (Input.GetKey(KeyCode.Space) == false)
