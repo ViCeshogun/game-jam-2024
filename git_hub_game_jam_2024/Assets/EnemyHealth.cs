@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -23,6 +24,6 @@ public class EnemyHealth : MonoBehaviour
     void Die()
     {
         // Perform actions when the enemy dies, e.g., play death animation, spawn particles, etc.
-        Destroy(gameObject);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

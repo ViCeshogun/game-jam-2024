@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Xml.Linq;
 using static UnityEngine.GraphicsBuffer;
-using System.Diagnostics;
 using TMPro;
 using UnityEditor.UIElements;
 
@@ -25,23 +24,20 @@ public class swing_script : MonoBehaviour
     {
         swing_cap = 60;
         swing_force = 1;
-        
+        has_left = false;
        
     }
 
     // Update is called once per frame
    public void Update()
     {
-
-
-        if (Input.GetKey(KeyCode.Backspace)) {
-            self.isTrigger = true;
-            StartCoroutine(trigger_on_off());
-        }
+        
+      
+       
 
 
         if (swing_val > -10 && swing_val < 10) { swing_cap = 60 - swing_back; }
-     if (can_swing == false) { anchor.rotation = Quaternion.Euler(0, 0, swing_val); }   
+     if (can_swing == false) { anchor.rotation = Quaternion.Euler(0, 0, swing_val);  }   
      if (swing_cap <= 0) { swing_val = 0; can_swing = true; swing_back = 0; swing_cap = 60;  swing_force = 1; has_left = false; }
      if (swing_cap <= 42&& swing_cap>20) { swing_force = 0.5f; }
      if (swing_cap <= 20&& swing_cap>11) { swing_force = 0.4f; }
@@ -51,30 +47,29 @@ public class swing_script : MonoBehaviour
     public void OnCollisionEnter2D(Collision2D collision)
     {
         
-        if (collision.gameObject.tag == "Player") 
+        if (collision.gameObject.tag == "Player"|| collision.gameObject.tag == "No harm") 
         {
+         
             swing_back = 0; swing_cap = 60; swing_val = anchor.transform.rotation.y;
             can_swing = false;
             swing_force = 1;
+         
 
             if (has_left == false) 
             {
                 StartCoroutine(swinging());
-
+                
               
             }
         
         }
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        self.isTrigger = true;
-        StartCoroutine(trigger_on_off());
-    }
+   
 
     public IEnumerator swinging()
     {
+        
         yield return new WaitForSeconds(0.01f);
         has_left = true;
         if (swing_val > swing_cap && swing_change == 0) { swing_true_false = true; swing_change = 1; }
@@ -87,8 +82,17 @@ public class swing_script : MonoBehaviour
 
     public IEnumerator trigger_on_off()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1);
         self.isTrigger = false;
+        Debug.Log("trigger");
+    }
+
+
+    public void Leave() 
+    {
+        Debug.Log("left");
+        self.isTrigger = true;
+        StartCoroutine(trigger_on_off());
 
     }
 }

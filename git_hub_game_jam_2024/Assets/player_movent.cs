@@ -69,7 +69,7 @@ public class player_movent : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift) && !isDashing && dashCooldownTimer <= 0f)
         {
             StartCoroutine(Dash(horizontalInput));
-            gameObject.tag = "Untagged";
+            gameObject.tag = "No harm";
         }
 
         if (isDashing == false)
@@ -106,22 +106,30 @@ public class player_movent : MonoBehaviour
 
     public void OnCollisionStay2D(Collision2D collision)
     {
+        
        
         if (collision.gameObject.tag == "rope")
         {
-            if (Input.GetKey(KeyCode.Space) == false)
-            {
 
+
+
+            if (swing_code.self.isTrigger == false)
+            {
                 rb.transform.position = swing_code.slef.transform.position;
                 rb.transform.position = new Vector2(collision.transform.position.x, collision.transform.position.y - 0.8f);
                 player.rotation = Quaternion.Euler(0, 0, swing_code.swing_val);
-
             }
 
-            if (Input.GetKey(KeyCode.Space) == true)
+            
+
+            if (Input.GetKey(KeyCode.Space))
             {
-                rb.velocity = new Vector2(rb.velocity.x, jumpForce + 3);
+
+                swing_code.self.isTrigger = true;
+                rb.velocity = new Vector2(0, jumpForce + 3);
                 player.rotation = Quaternion.Euler(0, 0, 0);
+                swing_code.Leave();
+
             }
 
 

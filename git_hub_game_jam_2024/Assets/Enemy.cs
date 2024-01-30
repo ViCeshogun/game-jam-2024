@@ -36,7 +36,7 @@ public class Enemy : MonoBehaviour
             // Update the timer for random movement
             timer -= Time.deltaTime;
 
-            if (timer_script.time >= 10)
+            if (timer_script.time >= 120)
             {
                 // Switch to moving towards the player
                 isMovingRandomly = false;
@@ -91,6 +91,7 @@ public class Enemy : MonoBehaviour
 
     IEnumerator MoveTowardsPlayer()
     {
+        yield return new WaitForSeconds(120);
         while (true)
         {
             evil = true;
