@@ -27,9 +27,10 @@ public class timer : MonoBehaviour
         yield return new WaitForSeconds(1f);
         // the values change
         time += 1f;
+        StartCoroutine(Timer());
         TimerText.text = "Time: " + time;
         // the continuation of the timer
-        StartCoroutine(Timer());
+        
 
     }
 

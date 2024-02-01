@@ -7996,6 +7996,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 12
+  rb: {fileID: 297081464}
   random: 0
   pos: {x: 0, y: 0}
   can_move: 0
@@ -11286,6 +11287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 12
+  rb: {fileID: 1028235624}
   random: 0
   pos: {x: 0, y: 0}
   can_move: 0
@@ -11578,6 +11580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 12
+  rb: {fileID: 1111260178}
   random: 0
   pos: {x: 0, y: 0}
   can_move: 0
@@ -13033,6 +13036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 12
+  rb: {fileID: 1338924996}
   random: 0
   pos: {x: 0, y: 0}
   can_move: 0
@@ -65046,6 +65050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 12
+  rb: {fileID: 1992361611}
   random: 0
   pos: {x: 0, y: 0}
   can_move: 0
@@ -65293,6 +65298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 12
+  rb: {fileID: 2091793808}
   random: 0
   pos: {x: 0, y: 0}
   can_move: 0

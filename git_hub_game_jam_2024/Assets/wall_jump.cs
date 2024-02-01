@@ -20,10 +20,15 @@ public class wall_jump : MonoBehaviour
     {
        
     }
+
+
+    
     private void OnCollisionEnter2D(Collision2D collsion)
     {
         
-        if (collsion.gameObject.tag == "Player")
+
+
+            if (collsion.gameObject.tag == "Player"|| collsion.gameObject.tag == "no harm")
         {
             // this changes the jump force
             player_script.wall_jump = true;
@@ -37,13 +42,17 @@ public class wall_jump : MonoBehaviour
     {
 
         StartCoroutine(left_wall());
+       
 
     }
 
     IEnumerator left_wall() 
     {
         yield return new WaitForSeconds(1);
+        if (player_script.groundCheck != false) { player_script.wall_jump_animiation = false; }
         player_script.wall_jump = false;
+        
+        
     }
 
 }

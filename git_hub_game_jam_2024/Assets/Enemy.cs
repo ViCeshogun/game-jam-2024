@@ -5,7 +5,7 @@ public class Enemy : MonoBehaviour
 {
     public float moveSpeed = 3f;
     private Transform player;
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
     private bool isMovingRandomly = true;
     public float random;
     public Vector2 pos;
@@ -16,65 +16,84 @@ public class Enemy : MonoBehaviour
     public Animator animtor;
     public int is_walking;
     public bool evil;
-    void Start()
+    public int walk;
+    public bool can_walk;
+    public Transform self;
+    public void Start()
     {
+
+        pos = transform.position;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody2D>();
         timer = randomMoveDuration;
         StartCoroutine(Randomiser());
-        // Start the coroutine for random movement
         StartCoroutine(RandomMovement());
+        // Start the coroutine for random movement
+
     }
 
-    void Update()
+    public void Update()
     {
-       
-        animtor.SetInteger("speed", is_walking);
+        if (walk == 0) { rb.drag = 1000; can_walk = false; }
+        if (walk == 2) { rb.drag = 3; rb.AddForce(new Vector2(-5, 0)); self.rotation = Quaternion.Euler(0, 0, 0); }
+        if (walk == 1) { rb.drag = 3; rb.AddForce(new Vector2(5, 0)); self.rotation = Quaternion.Euler(0, 180, 0); }
+        if (walk == 3) { rb.AddForce(new Vector2(-6, 0)); self.rotation = Quaternion.Euler(0, 0, 0); Debug.Log("back_froont "); }
+        if (walk == 4) { rb.AddForce(new Vector2(6, 0)); self.rotation = Quaternion.Euler(0, 180, 0); Debug.Log("back_back"); }
+
+
+        animtor.SetBool("walking", can_walk);
         animtor.SetBool("evil", evil);
-        if (isMovingRandomly)
-        {
+       
             // Update the timer for random movement
             timer -= Time.deltaTime;
 
             if (timer_script.time >= 120)
             {
                 // Switch to moving towards the player
-                isMovingRandomly = false;
+                isMovingRandomly = true;
                 StopCoroutine(RandomMovement());
-                StartCoroutine(MoveTowardsPlayer());
+
             }
-        }
+        
     }
 
     IEnumerator RandomMovement()
     {
-        while (isMovingRandomly)
-        {
-            can_move = 1;
+        yield return new WaitForSeconds(2);
+        
+        can_move = 1;
             
-            pos = transform.position;
+            
 
-            if (random == 1 && can_move == 1) { rb.AddForce(new Vector2(2, 0)); rb.drag = 1; is_walking = 2; }
-            if (random == 2 && can_move == 1) { rb.AddForce(new Vector2(-2, 0)); rb.drag = 1; is_walking = 2; }
-            if (random == 3 && can_move == 1) { rb.drag = 1000; is_walking = 0; }
+            if (random == 1 && can_move == 1) { walk = 1;  is_walking = 2; can_walk = true; }
+            if (random == 2 && can_move == 1) { walk = 2;  is_walking = 2; can_walk = true; }
+            if (random == 3 && can_move == 1) { can_walk = false; walk = 0;  is_walking = 0;}
 
             if (transform.position.x > pos.x + 7)
             {
-                can_move = 0;
-                StartCoroutine(Return());
-                rb.AddForce(new Vector2(-2, 0));
+            can_walk = true;
+            can_move = 0;
+            walk = 3;
+            StartCoroutine(Return());
+            
+                
             }
 
             if (transform.position.x < pos.x - 7)
             {
-                can_move = 0;
-                StartCoroutine(Return());
-                rb.AddForce(new Vector2(2, 0));
+            can_walk = true;
+            can_move = 0;
+            walk = 4;
+            StartCoroutine(Return());
+                
             }
 
-            yield return null;
-        }
+        StartCoroutine(RandomMovement());
+
     }
+
+   
+
 
     IEnumerator Randomiser()
     {
@@ -85,15 +104,16 @@ public class Enemy : MonoBehaviour
 
     IEnumerator Return()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         can_move = 1;
+        random = Random.Range(1, 4);
     }
 
     IEnumerator MoveTowardsPlayer()
     {
-        yield return new WaitForSeconds(120);
-        while (true)
-        {
+        yield return new WaitForSeconds(1);
+
+        Debug.Log("did");
             evil = true;
             rb.transform.tag = "Enamy";
             // Move towards the player
@@ -102,6 +122,6 @@ public class Enemy : MonoBehaviour
 
             // Wait for a short duration before recalculating direction
             yield return new WaitForSeconds(0.5f);
-        }
+        
     }
 }

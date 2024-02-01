@@ -9,6 +9,7 @@ TagManager:
   - Wall
   - rope
   - Enamy
+  - no harm
   layers:
   - Default
   - TransparentFX

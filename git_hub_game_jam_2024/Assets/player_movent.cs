@@ -12,9 +12,10 @@ public class player_movent : MonoBehaviour
     public Transform groundCheck;       // Ground check object (empty GameObject at player's feet)
     public LayerMask groundLayer;       // Layer mask for the ground
     public bool wall_jump;
+    public bool wall_jump_animiation;
     private Rigidbody2D rb;
     private bool isGrounded;
-    private bool isDashing;
+    public bool isDashing;
     private float dashTime;
     private float dashCooldownTimer;
     public Transform player;
@@ -47,6 +48,8 @@ public class player_movent : MonoBehaviour
 
 
         animator.SetBool("animation", animation_move);
+       
+        animator.SetBool("wall_jump", wall_jump_animiation);
 
         // Player jump
         if (isGrounded && Input.GetButtonDown("Jump"))
@@ -58,7 +61,8 @@ public class player_movent : MonoBehaviour
         if (wall_jump == true && Input.GetButtonDown("Jump"))
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            wall_jump = false;
+           
+            wall_jump_animiation = true;
 
         }
 
@@ -70,6 +74,7 @@ public class player_movent : MonoBehaviour
         {
             StartCoroutine(Dash(horizontalInput));
             gameObject.tag = "No harm";
+            animator.SetBool("dash_bool", isDashing);
         }
 
         if (isDashing == false)
@@ -81,6 +86,7 @@ public class player_movent : MonoBehaviour
 
     IEnumerator Dash(float direction)
     {
+     
         isDashing = true;
         float dashStartX = transform.position.x;
 
@@ -99,7 +105,8 @@ public class player_movent : MonoBehaviour
         dashCooldownTimer = dashCooldown;
 
         rb.velocity = new Vector2(0f, rb.velocity.y);
-
+        yield return new WaitForSeconds(0.3f);
+        animator.SetBool("dash_bool", isDashing);
 
     }
 
