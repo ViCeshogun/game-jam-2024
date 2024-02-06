@@ -19,6 +19,8 @@ public class Enemy : MonoBehaviour
     public int walk;
     public bool can_walk;
     public Transform self;
+    public int wait_time;
+    public Collider2D me;
     public void Start()
     {
 
@@ -49,11 +51,12 @@ public class Enemy : MonoBehaviour
 
             if (timer_script.time >= 120)
             {
+            Debug.Log("evil");
                 // Switch to moving towards the player
                 isMovingRandomly = true;
                 StopCoroutine(RandomMovement());
-
-            }
+            StartCoroutine(MoveTowardsPlayer());
+        }
         
     }
 
@@ -112,6 +115,8 @@ public class Enemy : MonoBehaviour
     IEnumerator MoveTowardsPlayer()
     {
         yield return new WaitForSeconds(1);
+
+        me.isTrigger = false;
 
         Debug.Log("did");
             evil = true;
