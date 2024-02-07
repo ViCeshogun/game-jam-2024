@@ -15,7 +15,7 @@ public class DamegeBob : MonoBehaviour
             if (enemyHealth != null)
             {
                 // Deal damage to the linked object
-                enemyHealth.TakeDamage(damageOnDestroy);
+                
             }
         }
     }

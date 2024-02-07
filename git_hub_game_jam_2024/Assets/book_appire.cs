@@ -10,11 +10,13 @@ public class book_appire : MonoBehaviour
     public bool book_time;
     public bool Is_here;
     public string name;
+    public GameObject self;
     // Start is called before the first frame update
     void Start()
     {
         book_script.self.SetActive(false);
         name = "Player";
+        DontDestroyOnLoad(self);
     }
 
     // Update is called once per frame
@@ -24,7 +26,7 @@ public class book_appire : MonoBehaviour
             
             
             
-            if (Input.GetKey(KeyCode.E)== true) { book_script.book_true = true; book.SetActive(true); book_script.book_swap = false;  Debug.Log("why"); } 
+            if (Input.GetKey(KeyCode.E)== true) { book_script.book_true = true; book.SetActive(true); book_script.book_swap = false;   } 
         
         
         
@@ -36,13 +38,13 @@ public class book_appire : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("hit");
+       
         if (collision.gameObject.tag == name)
         {
 
             name = "";
             if (book_script.self.active == false) { book_script.self.SetActive(true); }
-            Debug.Log("found");
+            
             Is_here = true;
 
         }

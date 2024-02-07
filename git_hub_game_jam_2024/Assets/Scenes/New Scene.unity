@@ -7009,9 +7009,9 @@ GameObject:
   m_Component:
   - component: {fileID: 154749893}
   - component: {fileID: 154749896}
-  - component: {fileID: 154749894}
   - component: {fileID: 154749897}
   - component: {fileID: 154749895}
+  - component: {fileID: 154749894}
   m_Layer: 0
   m_Name: bullet
   m_TagString: Enamy
@@ -7027,8 +7027,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 154749892}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.5, y: 9.1, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1417382237}
   m_RootOrder: 0
@@ -7042,11 +7042,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 154749892}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1257b07a6706ab408f47636b7970996, type: 3}
+  m_Script: {fileID: 11500000, guid: c850278aa76ffa542a024912c5eb658c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!60 &154749895
-PolygonCollider2D:
+--- !u!61 &154749895
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7055,7 +7055,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7068,13 +7068,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.21875, y: 0.78125}
-      - {x: -0.21875, y: -0.78125}
-      - {x: 0.09375, y: -0.78125}
-      - {x: 0.21875, y: -0.34375}
-      - {x: 0.21875, y: 0.78125}
+  serializedVersion: 2
+  m_Size: {x: 0.4375, y: 1.5625}
+  m_EdgeRadius: 0
 --- !u!212 &154749896
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7139,8 +7135,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_LinearDrag: 1
+  m_AngularDrag: 1
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -8521,7 +8517,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487179382}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.87, y: 0, z: -10}
+  m_LocalPosition: {x: 102.5703, y: -2.3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1094074696}
@@ -9059,6 +9055,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1111956190}
+  - {fileID: 1025953735}
+  - {fileID: 1141255115}
+  - {fileID: 1144658671}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11139,12 +11138,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1025953732}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -44.0906, y: 8.3725, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -39.916985, y: 9.277809, z: 2.8177536}
   m_LocalScale: {x: 1.9761019, y: 3.065563, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 521679575}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1025953736
 MonoBehaviour:
@@ -11162,6 +11161,7 @@ MonoBehaviour:
   book_script: {fileID: 1094074698}
   book_time: 0
   Is_here: 0
+  name: 
 --- !u!61 &1025953737
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11481,6 +11481,8 @@ MonoBehaviour:
   animat: {fileID: 1094074699}
   book_swap: 0
   run_once: 0
+  check_1: 0
+  check_2: 0
 --- !u!95 &1094074699
 Animator:
   serializedVersion: 3
@@ -12237,12 +12239,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141255113}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 73.58092, y: 18.969332, z: -2.4631176}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 77.75453, y: 19.87464, z: 0.35463595}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 521679575}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1144658667
 GameObject:
@@ -12337,8 +12339,8 @@ RectTransform:
   m_Children:
   - {fileID: 2099893098}
   - {fileID: 283421178}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 521679575}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -12371,8 +12373,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1174984972}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.4, y: -1.48, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.4000015, y: -1.48, z: 0}
   m_LocalScale: {x: 1.363, y: 11.974, z: 1}
   m_Children: []
   m_Father: {fileID: 1566852134}
@@ -12391,7 +12393,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   self: {fileID: 1174984976}
-  self2: {fileID: 0}
   bob: {fileID: 1417382238}
 --- !u!61 &1174984975
 BoxCollider2D:
@@ -13177,6 +13178,7 @@ GameObject:
   - component: {fileID: 1417382237}
   - component: {fileID: 1417382238}
   - component: {fileID: 1417382239}
+  - component: {fileID: 1417382240}
   m_Layer: 0
   m_Name: bobs arms
   m_TagString: Untagged
@@ -13191,9 +13193,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1417382236}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.84, y: 2.19, z: 0}
+  m_LocalScale: {x: 1, y: 0.75, z: 1}
   m_Children:
   - {fileID: 154749893}
   m_Father: {fileID: 1566852134}
@@ -13212,17 +13214,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bob: {fileID: 1417382236}
-  bullet: {fileID: 154749892}
+  player_pos: {x: 0, y: 0}
+  bullet: {fileID: 154749893}
   player: {fileID: 2131715409}
-  player_pos: {x: 0, y: 0, z: 0}
-  bob_pos: {x: 0, y: 0, z: 0}
+  camra_pos: {fileID: 487179382}
   random: 0
-  time: 0
-  bullet_spin: {fileID: 154749893}
-  random_check: 0
-  camra_: {fileID: 487179382}
-  hate: {x: 0, y: 0, z: 0}
-  Move_speed: 0
+  is_on: 0
+  is_chasing: 0
+  rotate_value: 0
 --- !u!114 &1417382239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13235,7 +13234,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c850278aa76ffa542a024912c5eb658c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 20
+--- !u!114 &1417382240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417382236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9e1c480de70ad34d83acd0e37eebb5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1456622016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13876,7 +13886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4049802589867097148, guid: 2e859a29ede815244ae02dda808a20a7, type: 3}
       propertyPath: m_TagString
-      value: Enamy
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7681184771024508362, guid: 2e859a29ede815244ae02dda808a20a7, type: 3}
       propertyPath: m_RootOrder
@@ -13930,8 +13940,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3642328561085057879, guid: 2e859a29ede815244ae02dda808a20a7, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e859a29ede815244ae02dda808a20a7, type: 3}
 --- !u!4 &1566852134 stripped
 Transform:
@@ -65862,7 +65871,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131715409}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -42.2, y: 8.8, z: 0}
+  m_LocalPosition: {x: 102.55, y: -0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 574263489}

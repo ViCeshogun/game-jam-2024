@@ -26,7 +26,7 @@ public class book_animation : MonoBehaviour
 
         
         check_1 = check_2 + 3;
-        if (Input.GetKey(KeyCode.E) && check_1 >= 5) { book_true = true; Debug.Log("mine"); StartCoroutine(end()); }
+        if (Input.GetKey(KeyCode.E) && check_1 >= 5) { book_true = true;  StartCoroutine(end()); }
         animat.SetBool("bookopen", book_true);
         animat.SetBool("NewBool", book_swap);
         StartCoroutine(book_relay());
@@ -49,5 +49,6 @@ public class book_animation : MonoBehaviour
         check_1 = 0;
         check_2 = 0;
         self.SetActive(false);
+        
     }
 }

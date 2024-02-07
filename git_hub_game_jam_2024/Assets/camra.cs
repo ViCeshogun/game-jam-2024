@@ -1,103 +1,105 @@
 using System.Collections;
+
 using System.Diagnostics.SymbolStore;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
 
 public class camra : MonoBehaviour
 {
-
-
     public GameObject bob;
-    public GameObject bullet;
+    public Vector2 player_pos;
+    public Transform bullet;
     public GameObject player;
-    public Vector3 player_pos;
-    public Vector3 bob_pos;
-    public float random;
-    public int time;
-    public Transform bullet_spin;
-    public float random_check;
-    public GameObject camra_;
-    public Vector3 hate;
-    public float Move_speed;
-
+    public GameObject camra_pos;
+    public int random;
+    public bool is_on;
+    public bool is_chasing;
+    public float rotate_value;
     public void Update()
     {
-        hate = bob.transform.position;
+        if (is_on == true) { StartCoroutine(shoot()); is_on = false;  }
+        bullet.transform.position = bullet.transform.position;
+        if (is_chasing == true)
+        {
+           
+            bullet.position = Vector3.MoveTowards(bullet.position, player_pos, 0.05f); 
+        }
+
+     
 
         
-            if (time > 1) { bullet.transform.position = bullet.transform.position; }
-
-
-            float number = Mathf.Atan2(bob_pos.y - player_pos.y, bob_pos.x - player_pos.x);
-            if (time == 1) {
-                player_pos = player.transform.position;
-                bullet.transform.position = bob_pos;
-                bullet_spin.rotation = Quaternion.Euler(0, 0, number);
-
-            }
-
-
-
-            if (time > 1 && time < 3)
-            {
-                Debug.Log("time");
-
-                bullet.transform.position = Vector3.MoveTowards(bullet.transform.position, player_pos, 0.5f);
-
-            }
-
-
-
-            if (time > 4 && time < 6)
-            {
-
-                bullet.transform.position = Vector3.MoveTowards(bullet.transform.position, bob_pos, 0.5f);
-            }
-
-
-
-
-            if (time == 7) {
-                time = 0;
-                random_check = 0; }
-            if (random == 1) { bob_pos = new Vector2(-21+hate.x, 4 + hate.y); }
-            if (random == 2) { bob_pos = new Vector2(19+hate.x, 4 + hate.y); }
-            if (random == 3) { bob_pos = new Vector2(-2+hate.x, 17 + hate.y); }
-            if (random == 4) { bob_pos = new Vector2(-21+hate.x, 16 + hate.y); }
-            if (random == 5) { bob_pos = new Vector2(-16+hate.x, 16 + hate.y); }
-            if (random_check == 0) { random = Random.Range(1+hate.x, 6); random_check = 1; }
-        
-
     }
 
 
     public void Start()
     {
-        random = Random.Range(1, 6);
-        StartCoroutine(time_randomiser());
 
-        if (random == 1) { bob_pos = new Vector2(-21 + hate.x, 4 + hate.y); }
-        if (random == 2) { bob_pos = new Vector2(19 + hate.x, 4 + hate.y); }
-        if (random == 3) { bob_pos = new Vector2(-2 + hate.x, 17 + hate.y); }
-        if (random == 4) { bob_pos = new Vector2(-21 + hate.x, 16 + hate.y); }
-        if (random == 5) { bob_pos = new Vector2(-16 + hate.x, 16 + hate.y); }
-
-
-
+      
 
 
     }
     
-
-
-
-
-        IEnumerator time_randomiser() 
+    IEnumerator shoot()
     {
+        
+        Debug.Log("1");
+        player_pos = player.transform.position;
+       
+        is_chasing = true;
+        yield return new WaitForSeconds(2f);
+        is_chasing = false;
+        bullet.tag = "";
+        yield return new WaitForSeconds(0.5f);
+        bullet.tag = "Enamy";
+        is_back();
+        bullet.position = bob.transform.position;
+        StartCoroutine(shoot());
         yield return new WaitForSeconds(1);
-        time = time + 1;
-        StartCoroutine(time_randomiser());
+
 
     }
-  
+
+
+    public void is_back() 
+    {
+        random = Random.Range(1, 4);
+    if (random== 2) { above(); random = Random.Range(1, 3); }
+    if (random== 1) { left(); random = Random.Range(1, 3); }
+    if (random== 3) { right(); random = Random.Range(1, 3); }
+
+    }
+
+
+    public void above() 
+    {
+
+        bob.transform.position = new Vector2(camra_pos.transform.position.x+ Random.Range(-10,10), camra_pos.transform.position.y+7.5f);
+      
+    }
+
+    public void left() 
+    {
+        if (Random.Range(1, 3) == 2) 
+        {  
+            bob.transform.position = new Vector2(camra_pos.transform.position.x-9f, camra_pos.transform.position.y+ Random.Range(1, 10));
+           
+        }
+       
+
+    }
+    public void right() 
+    {
+        if (Random.Range(1, 3) == 2)
+        {
+            bob.transform.position = new Vector2(camra_pos.transform.position.x+9f, camra_pos.transform.position.y+ Random.Range(1, 10));
+      
+        }
+       
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        
+    }
+
 }

@@ -13,7 +13,7 @@ public class DamegeSkript : MonoBehaviour
             if (enemyHealth != null)
             {
                 // Deal damage to the enemy
-                enemyHealth.TakeDamage(damageAmount);
+               
 
                 // Optionally, perform other actions when the player damages the enemy
             }

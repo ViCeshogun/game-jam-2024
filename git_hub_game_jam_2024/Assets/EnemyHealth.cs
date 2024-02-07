@@ -3,27 +3,29 @@ using UnityEngine.SceneManagement;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public int maxHealth = 20;
-    private int currentHealth;
+    int hp = 10;
+    private void Update()
+    {
+        
+    }
 
     void Start()
     {
-        currentHealth = maxHealth;
+        
     }
 
-    public void TakeDamage(int damage)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        currentHealth -= damage;
-
-        if (currentHealth <= 0)
+        if(collision.gameObject.tag == "No harm"&& hp!=0) 
         {
-            Die();
+            hp = hp - 1;
+        }
+        if (hp == 0) 
+        {
+        
+        
         }
     }
 
-    void Die()
-    {
-        // Perform actions when the enemy dies, e.g., play death animation, spawn particles, etc.
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
+
 }

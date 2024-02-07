@@ -21,9 +21,10 @@ public class Enemy : MonoBehaviour
     public Transform self;
     public int wait_time;
     public Collider2D me;
+    public int time;
     public void Start()
     {
-
+        time = 120;
         pos = transform.position;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody2D>();
@@ -39,8 +40,8 @@ public class Enemy : MonoBehaviour
         if (walk == 0) { rb.drag = 1000; can_walk = false; }
         if (walk == 2) { rb.drag = 3; rb.AddForce(new Vector2(-5, 0)); self.rotation = Quaternion.Euler(0, 0, 0); }
         if (walk == 1) { rb.drag = 3; rb.AddForce(new Vector2(5, 0)); self.rotation = Quaternion.Euler(0, 180, 0); }
-        if (walk == 3) { rb.AddForce(new Vector2(-6, 0)); self.rotation = Quaternion.Euler(0, 0, 0); Debug.Log("back_froont "); }
-        if (walk == 4) { rb.AddForce(new Vector2(6, 0)); self.rotation = Quaternion.Euler(0, 180, 0); Debug.Log("back_back"); }
+        if (walk == 3) { rb.AddForce(new Vector2(-6, 0)); self.rotation = Quaternion.Euler(0, 0, 0); }
+        if (walk == 4) { rb.AddForce(new Vector2(6, 0)); self.rotation = Quaternion.Euler(0, 180, 0);}
 
 
         animtor.SetBool("walking", can_walk);
@@ -51,7 +52,7 @@ public class Enemy : MonoBehaviour
 
             if (timer_script.time >= 120)
             {
-            Debug.Log("evil");
+     
                 // Switch to moving towards the player
                 isMovingRandomly = true;
                 StopCoroutine(RandomMovement());
@@ -118,7 +119,7 @@ public class Enemy : MonoBehaviour
 
         me.isTrigger = false;
 
-        Debug.Log("did");
+      
             evil = true;
             rb.transform.tag = "Enamy";
             // Move towards the player
